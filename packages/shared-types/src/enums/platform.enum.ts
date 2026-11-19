@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/enums/platform.enum.ts
  * @description Canonical enums for dynamic platform configuration, system prompts, and scopes.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 export enum ConfigNamespace {

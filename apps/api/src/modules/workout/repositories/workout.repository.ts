@@ -1,12 +1,12 @@
 /**
  * @file apps/api/src/modules/workout/repositories/workout.repository.ts
  * @description Repository managing Mesocycle, Session, Exercise, and SetLog persistence in PostgreSQL.
- * @module @vitalai/api/workout
+ * @module @vital-ai/api/workout
  */
 
 import { Injectable } from "@nestjs/common";
 import { Logger } from "@yuva-devlab/logger";
-import { type Prisma } from "@vitalai/database";
+import { type Prisma } from "@vital-ai/database";
 import { PrismaService } from "../../prisma/prisma.service";
 
 @Injectable()

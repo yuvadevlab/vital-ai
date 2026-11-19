@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/platform/resolvers/platform.resolver.ts
  * @description GraphQL resolver exposing dynamic database-backed navigation, LLM catalogs, and platform configs.
- * @module @vitalai/api/platform
+ * @module @vital-ai/api/platform
  */
 
 import { Args, Query, Resolver } from "@nestjs/graphql";

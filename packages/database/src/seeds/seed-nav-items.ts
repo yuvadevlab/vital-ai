@@ -1,7 +1,7 @@
 /**
  * @file packages/database/src/seeds/seed-nav-items.ts
  * @description Idempotent database seeder for application navigation and menu items.
- * @module @vitalai/database/seeds
+ * @module @vital-ai/database/seeds
  */
 
 import { PrismaClient } from "@prisma/client";

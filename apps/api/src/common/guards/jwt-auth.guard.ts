@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/common/guards/jwt-auth.guard.ts
  * @description Route guard enforcing valid JWT credentials on endpoints and resolvers.
- * @module @vitalai/api/common
+ * @module @vital-ai/api/common
  */
 
 import { Injectable, ExecutionContext } from "@nestjs/common";

@@ -1,7 +1,7 @@
 /**
  * @file packages/ai-engine/src/guardrails/guardrail.types.ts
  * @description Type definitions for Tier-1 deterministic medical safety guardrails.
- * @module @vitalai/ai-engine/guardrails
+ * @module @vital-ai/ai-engine/guardrails
  */
 
 import {
@@ -10,7 +10,7 @@ import {
   ExerciseId,
   FoodTag,
   LifeStage,
-} from "@vitalai/shared-types";
+} from "@vital-ai/shared-types";
 
 /**
  * Domain category for clinical guardrail intercepts.

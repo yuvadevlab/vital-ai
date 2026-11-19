@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef } from "react";
-import { toast } from "@vitalai/ui";
+import { toast } from "@vital-ai/ui";
 import { AppShell } from "@/components/vital/AppShell";
 import { ThemeSwitch } from "@/components/vital/ThemeSwitch";
 import {

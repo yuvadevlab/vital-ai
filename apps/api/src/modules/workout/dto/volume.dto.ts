@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/workout/dto/volume.dto.ts
  * @description GraphQL ObjectType for hypertrophy volume landmarks assessment.
- * @module @vitalai/api/workout
+ * @module @vital-ai/api/workout
  */
 
 import { Field, Int, ObjectType, registerEnumType } from "@nestjs/graphql";
-import { MuscleGroup, VolumeStatus } from "@vitalai/shared-types";
+import { MuscleGroup, VolumeStatus } from "@vital-ai/shared-types";
 
 registerEnumType(VolumeStatus, {
   name: "VolumeStatus",

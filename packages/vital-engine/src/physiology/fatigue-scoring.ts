@@ -1,10 +1,10 @@
 /**
  * @file packages/vital-engine/src/physiology/fatigue-scoring.ts
  * @description Neurological and axial loading fatigue calculation heuristics for workouts.
- * @module @vitalai/vital-engine
+ * @module @vital-ai/vital-engine
  */
 
-import { ExerciseCategory, type WorkoutSet, type Exercise } from "@vitalai/shared-types";
+import { ExerciseCategory, type WorkoutSet, type Exercise } from "@vital-ai/shared-types";
 
 /**
  * Multipliers reflecting neurological fatigue and axial spinal loading per exercise category.

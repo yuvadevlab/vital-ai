@@ -1,7 +1,7 @@
 /**
  * @file packages/vital-engine/src/nutrition/glycemic-load.ts
  * @description Glycemic Load (GL) calculations and carbohydrate peri-workout timing analysis.
- * @module @vitalai/vital-engine
+ * @module @vital-ai/vital-engine
  */
 
 import {
@@ -9,7 +9,7 @@ import {
   MealType,
   type MealItem,
   type GlycemicLoadReport,
-} from "@vitalai/shared-types";
+} from "@vital-ai/shared-types";
 
 /**
  * Calculates the glycemic load of a meal.

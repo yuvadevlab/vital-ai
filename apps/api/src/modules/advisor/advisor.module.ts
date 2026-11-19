@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/advisor/advisor.module.ts
  * @description NestJS module configuring AI Advisor studio, personas, chat history, and Fastify SSE streaming.
- * @module @vitalai/api/advisor
+ * @module @vital-ai/api/advisor
  */
 
 import { Module } from "@nestjs/common";

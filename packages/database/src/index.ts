@@ -1,8 +1,8 @@
 /**
  * @file packages/database/src/index.ts
- * @description Master barrel export for the @vitalai/database package.
+ * @description Master barrel export for the @vital-ai/database package.
  * Single source of truth for Prisma client and database seed routines.
- * @module @vitalai/database
+ * @module @vital-ai/database
  */
 
 export * from "./client";

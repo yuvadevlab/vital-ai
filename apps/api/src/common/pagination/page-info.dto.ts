@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/common/pagination/page-info.dto.ts
  * @description Relay-compliant PageInfo GraphQL ObjectType for bidirectional pagination.
- * @module @vitalai/api/common
+ * @module @vital-ai/api/common
  */
 
 import { Field, ObjectType } from "@nestjs/graphql";

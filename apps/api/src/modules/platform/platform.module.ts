@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/platform/platform.module.ts
  * @description NestJS module for database-driven navigation, LLM catalogs, and platform configurations.
- * @module @vitalai/api/platform
+ * @module @vital-ai/api/platform
  */
 
 import { Module } from "@nestjs/common";

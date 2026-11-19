@@ -1,7 +1,7 @@
 /**
  * @file packages/ai-engine/src/guardrails/index.ts
  * @description Master barrel export for medical safety guardrails.
- * @module @vitalai/ai-engine/guardrails
+ * @module @vital-ai/ai-engine/guardrails
  */
 
 export * from "./guardrail.types";

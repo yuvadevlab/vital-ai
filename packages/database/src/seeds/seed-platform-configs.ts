@@ -1,7 +1,7 @@
 /**
  * @file packages/database/src/seeds/seed-platform-configs.ts
  * @description Idempotent database seeder for namespaced platform configurations and domain constants.
- * @module @vitalai/database/seeds
+ * @module @vital-ai/database/seeds
  */
 
 import { PrismaClient, Prisma } from "@prisma/client";

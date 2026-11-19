@@ -1,7 +1,7 @@
 /**
  * @file packages/prompts/src/templates/prompt-builder.ts
  * @description Dynamic prompt assembler combining database-driven system instructions with Health Vault contexts and safety guidelines.
- * @module @vitalai/prompts/templates
+ * @module @vital-ai/prompts/templates
  */
 
 import { PersonaContext } from "../personas/persona.types";

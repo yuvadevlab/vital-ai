@@ -1,14 +1,14 @@
 /**
  * @file apps/api/src/modules/advisor/services/advisor.service.ts
- * @description Business logic service integrating @vitalai/ai-engine ReAct cognitive harness and dynamic database advisors.
- * @module @vitalai/api/advisor
+ * @description Business logic service integrating @vital-ai/ai-engine ReAct cognitive harness and dynamic database advisors.
+ * @module @vital-ai/api/advisor
  */
 
 import { Injectable } from "@nestjs/common";
 import { Logger } from "@yuva-devlab/logger";
-import { type Prisma, type MessageRole as PrismaMessageRole } from "@vitalai/database";
-import { MessageRole, ConditionId, ExerciseId, FoodTag } from "@vitalai/shared-types";
-import { VitalAdvisorEngine, AdvisorStreamCallbacks } from "@vitalai/ai-engine";
+import { type Prisma, type MessageRole as PrismaMessageRole } from "@vital-ai/database";
+import { MessageRole, ConditionId, ExerciseId, FoodTag } from "@vital-ai/shared-types";
+import { VitalAdvisorEngine, AdvisorStreamCallbacks } from "@vital-ai/ai-engine";
 import { config, buildEngineConfig } from "../../../config";
 import { AdvisorRepository } from "../repositories/advisor.repository";
 import { HealthConditionService } from "../../health-condition/services/health-condition.service";
@@ -91,7 +91,7 @@ export class AdvisorService {
     const personas = await this.repository.findAllPersonas(userId);
     if (personas.length === 0) {
       throw new Error(
-        "No active AI advisors found in the database. Please populate the database via `pnpm --filter @vitalai/database db:seed`.",
+        "No active AI advisors found in the database. Please populate the database via `pnpm --filter @vital-ai/database db:seed`.",
       );
     }
 

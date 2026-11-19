@@ -1,11 +1,11 @@
 /**
  * @file packages/validation/src/nutrition.schema.ts
  * @description Zod validation schemas for clinical meals, macro targets, and purine risk thresholds.
- * @module @vitalai/validation
+ * @module @vital-ai/validation
  */
 
 import { z } from "zod";
-import { MealType, FoodTag } from "@vitalai/shared-types";
+import { MealType, FoodTag } from "@vital-ai/shared-types";
 
 /**
  * Validates individual food or recipe item logging.

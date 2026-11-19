@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/advisor/dto/index.ts
  * @description Barrel export for advisor DTOs.
- * @module @vitalai/api/advisor
+ * @module @vital-ai/api/advisor
  */
 
 export * from "./persona.dto";

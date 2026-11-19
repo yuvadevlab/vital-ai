@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/workout/utils/workout-generator.util.ts
  * @description Pure utility function constructing 6-week periodized workout session trees with zero any types.
- * @module @vitalai/api/workout
+ * @module @vital-ai/api/workout
  */
 
 import {
@@ -9,10 +9,10 @@ import {
   type MesocyclePhase as PrismaMesocyclePhase,
   type MuscleGroup as PrismaMuscleGroup,
   type ExerciseCategory as PrismaExerciseCategory,
-} from "@vitalai/database";
-import { MesocyclePhase, ExerciseCategory, MuscleGroup } from "@vitalai/shared-types";
-import { calculateTargetRir } from "@vitalai/vital-engine";
-import { EXERCISE_TAXONOMY, type ExerciseTaxonomyEntry } from "@vitalai/constants";
+} from "@vital-ai/database";
+import { MesocyclePhase, ExerciseCategory, MuscleGroup } from "@vital-ai/shared-types";
+import { calculateTargetRir } from "@vital-ai/vital-engine";
+import { EXERCISE_TAXONOMY, type ExerciseTaxonomyEntry } from "@vital-ai/constants";
 
 /**
  * Generates typed Prisma session creation data for a 6-week hypertrophy mesocycle.

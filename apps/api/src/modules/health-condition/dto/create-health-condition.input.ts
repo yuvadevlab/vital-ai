@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/health-condition/dto/create-health-condition.input.ts
  * @description GraphQL InputType for registering a new health condition or medical contraindication.
- * @module @vitalai/api/health-condition
+ * @module @vital-ai/api/health-condition
  */
 
 import { Field, InputType } from "@nestjs/graphql";
-import { ConditionCategory, ConditionSeverity } from "@vitalai/shared-types";
+import { ConditionCategory, ConditionSeverity } from "@vital-ai/shared-types";
 
 /**
  * Input payload for adding a medical condition to the user Health Vault.

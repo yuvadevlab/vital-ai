@@ -3,7 +3,7 @@
  * @description Master NestJS root module assembling GraphQL (Mercurius Fastify),
  * PostgreSQL persistence (PrismaModule), DevLab SSO authentication (AuthModule),
  * batch DataLoaders, and system health probes.
- * @module @vitalai/api
+ * @module @vital-ai/api
  */
 
 import { Module } from "@nestjs/common";

@@ -1,7 +1,7 @@
 /**
  * @file packages/database/src/seeds/seed-system-prompts.ts
  * @description Idempotent database seeder for living system prompt templates.
- * @module @vitalai/database/seeds
+ * @module @vital-ai/database/seeds
  */
 
 import { PrismaClient } from "@prisma/client";

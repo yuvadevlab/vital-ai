@@ -2,7 +2,7 @@
  * @file apps/api/src/modules/platform/services/platform-config.service.ts
  * @description Dynamic database-backed configuration service with in-memory TTL cache.
  * Eliminates hardcoded constants across branding, hypertrophy volume, and nutrition defaults.
- * @module @vitalai/api/platform
+ * @module @vital-ai/api/platform
  */
 
 import { Injectable } from "@nestjs/common";

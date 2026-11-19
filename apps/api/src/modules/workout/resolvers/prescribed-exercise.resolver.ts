@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/workout/resolvers/prescribed-exercise.resolver.ts
  * @description Field resolver for PrescribedExercise using batch DataLoaders to eliminate N+1 queries.
- * @module @vitalai/api/workout
+ * @module @vital-ai/api/workout
  */
 
 import { Resolver, ResolveField, Parent, Context } from "@nestjs/graphql";

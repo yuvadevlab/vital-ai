@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/nutrition/dto/index.ts
  * @description Barrel export for nutrition DTOs.
- * @module @vitalai/api/nutrition
+ * @module @vital-ai/api/nutrition
  */
 
 export * from "./meal-item.dto";

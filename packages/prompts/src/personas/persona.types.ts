@@ -1,7 +1,7 @@
 /**
  * @file packages/prompts/src/personas/persona.types.ts
  * @description Canonical type definitions for clinical and athletic AI advisor personas.
- * @module @vitalai/prompts/personas
+ * @module @vital-ai/prompts/personas
  */
 
 import {
@@ -12,7 +12,7 @@ import {
   FoodTag,
   LifeStage,
   CaloricGoal,
-} from "@vitalai/shared-types";
+} from "@vital-ai/shared-types";
 
 /**
  * Canonical identifiers for prebuilt clinical and athletic AI personas.

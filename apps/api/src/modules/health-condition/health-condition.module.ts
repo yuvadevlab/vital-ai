@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/health-condition/health-condition.module.ts
  * @description NestJS module configuring Health Vault medical conditions and clinical contraindications.
- * @module @vitalai/api/health-condition
+ * @module @vital-ai/api/health-condition
  */
 
 import { Module } from "@nestjs/common";

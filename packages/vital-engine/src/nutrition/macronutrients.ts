@@ -1,10 +1,10 @@
 /**
  * @file packages/vital-engine/src/nutrition/macronutrients.ts
  * @description Evidence-based macronutrient distribution calculations for body composition.
- * @module @vitalai/vital-engine
+ * @module @vital-ai/vital-engine
  */
 
-import { CaloricGoal, type MacroTargets } from "@vitalai/shared-types";
+import { CaloricGoal, type MacroTargets } from "@vital-ai/shared-types";
 
 export interface MacroCalculationParams {
   readonly tdee: number;

@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/contracts/nutrition.contract.ts
  * @description Clinical nutrition, purine risk index, glycemic load, and macro targets contracts.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 import { PurineRiskLevel, GlycemicLoadStatus, MealType, FoodTag } from "../enums";

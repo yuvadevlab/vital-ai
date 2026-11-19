@@ -1,12 +1,12 @@
 /**
  * @file packages/ai-engine/src/guardrails/tier1-safety-filter.ts
  * @description Tier-1 deterministic medical safety guardrail engine.
- * @module @vitalai/ai-engine/guardrails
+ * @module @vital-ai/ai-engine/guardrails
  */
 
 import { Logger } from "@yuva-devlab/logger";
-import { CONTRAINDICATION_MATRIX, EXERCISE_TAXONOMY } from "@vitalai/constants";
-import { ConditionSeverity, LifeStage } from "@vitalai/shared-types";
+import { CONTRAINDICATION_MATRIX, EXERCISE_TAXONOMY } from "@vital-ai/constants";
+import { ConditionSeverity, LifeStage } from "@vital-ai/shared-types";
 import {
   SafetyGuardrailContext,
   GuardrailEvaluationResult,

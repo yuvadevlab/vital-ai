@@ -7,17 +7,17 @@
 ## 1. Testing Frameworks & Tooling
 
 - **Unit & Integration Testing**: Vitest (`pnpm test` / `turbo test`).
-- **End-to-End Testing**: Playwright (`pnpm --filter @vitalai/web test:e2e`).
+- **End-to-End Testing**: Playwright (`pnpm --filter @vital-ai/web test:e2e`).
 - **Assertion Libraries**: Vitest native assertions (`expect`) with `@testing-library/react` for UI components.
 
 ---
 
 ## 2. Package-Specific Testing Mandates
 
-1. **`@vitalai/vital-engine` (100% Deterministic Coverage)**:
+1. **`@vital-ai/vital-engine` (100% Deterministic Coverage)**:
    - Every formula (Mifflin-St Jeor, Katch-McArdle, volume landmark calculations, purine score calculations, trimester nutrient additions) MUST have comprehensive unit tests with boundary condition edge cases.
    - Tests must verify zero floating-point drift and correct rounding.
-2. **`@vitalai/ai-engine` (Prompt & Safety Invariant Tests)**:
+2. **`@vital-ai/ai-engine` (Prompt & Safety Invariant Tests)**:
    - Verify that all prompt builders produce valid system prompts without undefined variables.
    - Test that clinical safety guardrails throw or flag contraindications when an unsafe exercise/food is tested against an active condition.
 3. **`apps/api` (Resolver & DataLoader Unit Tests)**:

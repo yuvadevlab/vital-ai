@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/workout/dto/exercise.dto.ts
  * @description GraphQL ObjectTypes for prescribed exercises, set logs, and exercise swaps.
- * @module @vitalai/api/workout
+ * @module @vital-ai/api/workout
  */
 
 import { Field, Float, ID, Int, ObjectType, registerEnumType } from "@nestjs/graphql";
-import { ExerciseCategory, SwapReason, MuscleGroup } from "@vitalai/shared-types";
+import { ExerciseCategory, SwapReason, MuscleGroup } from "@vital-ai/shared-types";
 
 registerEnumType(ExerciseCategory, {
   name: "ExerciseCategory",

@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/workout/dto/index.ts
  * @description Barrel export for workout DTOs.
- * @module @vitalai/api/workout
+ * @module @vital-ai/api/workout
  */
 
 export * from "./exercise.dto";

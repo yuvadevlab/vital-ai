@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/common/dataloaders/dataloader.module.ts
  * @description NestJS module exporting DataLoaderService globally.
- * @module @vitalai/api/common
+ * @module @vital-ai/api/common
  */
 
 import { Global, Module } from "@nestjs/common";

@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/common/errors/vital-graphql.error.ts
  * @description Custom GraphQL error class with typed DevLab error code extensions.
- * @module @vitalai/api/common
+ * @module @vital-ai/api/common
  */
 
 import { GraphQLError } from "graphql";

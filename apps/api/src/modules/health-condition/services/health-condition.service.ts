@@ -1,14 +1,14 @@
 /**
  * @file apps/api/src/modules/health-condition/services/health-condition.service.ts
  * @description Business logic service managing health vault conditions and clinical contraindication matching.
- * @module @vitalai/api/health-condition
+ * @module @vital-ai/api/health-condition
  */
 
 import { Injectable, NotFoundException } from "@nestjs/common";
 import { Logger } from "@yuva-devlab/logger";
-import { type HealthCondition } from "@vitalai/database";
-import { ConditionCategory, ConditionSeverity } from "@vitalai/shared-types";
-import { CONTRAINDICATION_MATRIX } from "@vitalai/constants";
+import { type HealthCondition } from "@vital-ai/database";
+import { ConditionCategory, ConditionSeverity } from "@vital-ai/shared-types";
+import { CONTRAINDICATION_MATRIX } from "@vital-ai/constants";
 import { HealthConditionRepository } from "../repositories/health-condition.repository";
 import { CreateHealthConditionInput } from "../dto/create-health-condition.input";
 import { UpdateHealthConditionInput } from "../dto/update-health-condition.input";

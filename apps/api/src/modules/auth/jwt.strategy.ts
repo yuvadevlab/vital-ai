@@ -4,7 +4,7 @@
  * 1. RS256 SSO tokens issued by DevLab Gateway with JWKS verification.
  * 2. HS256 tokens issued locally with symmetric secret verification.
  * Automatically handles Just-In-Time (JIT) provisioning for new SSO accounts.
- * @module @vitalai/api/auth
+ * @module @vital-ai/api/auth
  */
 
 import { Injectable, UnauthorizedException } from "@nestjs/common";

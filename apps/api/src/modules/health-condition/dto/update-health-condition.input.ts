@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/health-condition/dto/update-health-condition.input.ts
  * @description GraphQL InputType for modifying an existing health condition or toggling active status.
- * @module @vitalai/api/health-condition
+ * @module @vital-ai/api/health-condition
  */
 
 import { Field, ID, InputType } from "@nestjs/graphql";
-import { ConditionSeverity } from "@vitalai/shared-types";
+import { ConditionSeverity } from "@vital-ai/shared-types";
 
 /**
  * Input payload for updating a Health Vault condition.

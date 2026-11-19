@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/contracts/health-vault.contract.ts
  * @description Health Memory Vault, private clinical records, and medical guardrails contracts.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 import { ConditionCategory, ConditionSeverity, GuardrailType, ExerciseId, FoodTag } from "../enums";

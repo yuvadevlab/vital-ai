@@ -2,7 +2,7 @@
  * @file apps/api/src/common/decorators/current-user.decorator.ts
  * @description Custom parameter decorator extracting authenticated user context from requests.
  * Compatible with both Fastify REST endpoints and Mercurius GraphQL resolvers.
- * @module @vitalai/api/common
+ * @module @vital-ai/api/common
  */
 
 import { createParamDecorator, ExecutionContext } from "@nestjs/common";

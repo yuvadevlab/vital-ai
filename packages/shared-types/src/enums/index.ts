@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/enums/index.ts
  * @description Barrel export for all VitalAI domain enums.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 export * from "./life-stage.enum";

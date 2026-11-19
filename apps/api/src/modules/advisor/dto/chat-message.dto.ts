@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/advisor/dto/chat-message.dto.ts
  * @description GraphQL ObjectTypes for chat messages, reasoning traces, and two-phase proposals.
- * @module @vitalai/api/advisor
+ * @module @vital-ai/api/advisor
  */
 
 import { Field, ID, ObjectType, registerEnumType } from "@nestjs/graphql";
-import { MessageRole, ProposalType, ProposalStatus } from "@vitalai/shared-types";
+import { MessageRole, ProposalType, ProposalStatus } from "@vital-ai/shared-types";
 import { AdvisorPersonaResponse } from "./persona.dto";
 
 registerEnumType(MessageRole, {

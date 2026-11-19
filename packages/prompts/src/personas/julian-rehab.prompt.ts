@@ -1,11 +1,11 @@
 /**
  * @file packages/prompts/src/personas/julian-rehab.prompt.ts
  * @description Persona prompt definition for Dr. Julian Mercer (Physical Therapy & Biomechanics).
- * @module @vitalai/prompts/personas
+ * @module @vital-ai/prompts/personas
  */
 
-import { AdvisorSpecialty, AdvisorTone } from "@vitalai/shared-types";
-import { CONTRAINDICATION_MATRIX, EXERCISE_TAXONOMY } from "@vitalai/constants";
+import { AdvisorSpecialty, AdvisorTone } from "@vital-ai/shared-types";
+import { CONTRAINDICATION_MATRIX, EXERCISE_TAXONOMY } from "@vital-ai/constants";
 import { PersonaDefinition, PersonaContext, AdvisorPersonaId } from "./persona.types";
 
 export const julianRehabPersona: PersonaDefinition = {

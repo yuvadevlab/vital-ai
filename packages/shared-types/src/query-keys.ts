@@ -2,7 +2,7 @@
  * @file packages/shared-types/src/query-keys.ts
  * @description Centralized TanStack Query cache keys for VitalAI frontend applications.
  * Eliminates ad-hoc string keys and provides type-safe invalidate/prefetch contracts.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 /**

@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/app.resolver.ts
  * @description Root GraphQL resolver providing schema-level health query.
- * @module @vitalai/api
+ * @module @vital-ai/api
  */
 
 import { Field, ObjectType, Query, Resolver } from "@nestjs/graphql";

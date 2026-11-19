@@ -1,7 +1,7 @@
 /**
  * @file packages/prompts/src/system/safety-guidelines.prompt.ts
  * @description Master clinical safety and deterministic science directives.
- * @module @vitalai/prompts/system
+ * @module @vital-ai/prompts/system
  */
 
 export const CLINICAL_SAFETY_DIRECTIVES = `CRITICAL MEDICAL & PHYSIOLOGICAL SAFETY DIRECTIVES:

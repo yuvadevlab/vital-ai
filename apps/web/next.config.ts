@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   transpilePackages: [
-    "@vitalai/ui",
-    "@vitalai/shared-types",
+    "@vital-ai/ui",
+    "@vital-ai/shared-types",
     "@yuva-devlab/ui",
     "@yuva-devlab/tokens",
   ],

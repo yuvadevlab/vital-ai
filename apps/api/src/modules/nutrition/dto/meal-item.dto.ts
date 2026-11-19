@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/nutrition/dto/meal-item.dto.ts
  * @description GraphQL ObjectType for logged meal items, macronutrients, and metabolic indicators.
- * @module @vitalai/api/nutrition
+ * @module @vital-ai/api/nutrition
  */
 
 import { Field, Float, ID, ObjectType, registerEnumType } from "@nestjs/graphql";
-import { MealType } from "@vitalai/shared-types";
+import { MealType } from "@vital-ai/shared-types";
 
 registerEnumType(MealType, {
   name: "MealType",

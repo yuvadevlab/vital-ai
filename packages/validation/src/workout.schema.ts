@@ -1,11 +1,11 @@
 /**
  * @file packages/validation/src/workout.schema.ts
  * @description Zod validation schemas for active workout logging, repetition cadence, and biomechanical swaps.
- * @module @vitalai/validation
+ * @module @vital-ai/validation
  */
 
 import { z } from "zod";
-import { MesocyclePhase, SwapReason } from "@vitalai/shared-types";
+import { MesocyclePhase, SwapReason } from "@vital-ai/shared-types";
 
 /**
  * Validates 4-phase movement tempo (seconds).

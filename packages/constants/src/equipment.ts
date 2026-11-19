@@ -1,10 +1,10 @@
 /**
  * @file packages/constants/src/equipment.ts
  * @description Curated gym and home equipment taxonomy for Muscle Monster-style user onboarding.
- * @module @vitalai/constants
+ * @module @vital-ai/constants
  */
 
-import { EquipmentId, EquipmentCategory } from "@vitalai/shared-types";
+import { EquipmentId, EquipmentCategory } from "@vital-ai/shared-types";
 
 export interface EquipmentTaxonomyEntry {
   readonly id: EquipmentId;

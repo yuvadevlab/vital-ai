@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/platform/dto/platform.dto.ts
  * @description GraphQL ObjectTypes for dynamic platform providers, models, navigation, and configs.
- * @module @vitalai/api/platform
+ * @module @vital-ai/api/platform
  */
 
 import { Field, ID, Int, ObjectType } from "@nestjs/graphql";

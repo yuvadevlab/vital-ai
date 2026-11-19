@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/contracts/advisor.contract.ts
  * @description Contracts for AI Advisor personas, transparent clinical reasoning traces, and two-phase proposals.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 import {

@@ -1,7 +1,7 @@
 /**
  * @file packages/vital-engine/src/nutrition/index.ts
  * @description Barrel export for clinical nutrition and metabolic calculations.
- * @module @vitalai/vital-engine
+ * @module @vital-ai/vital-engine
  */
 
 export * from "./tdee";

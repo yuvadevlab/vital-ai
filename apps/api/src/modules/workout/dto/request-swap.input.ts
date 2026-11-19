@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/workout/dto/request-swap.input.ts
  * @description GraphQL InputType for requesting an AI biomechanical exercise substitution.
- * @module @vitalai/api/workout
+ * @module @vital-ai/api/workout
  */
 
 import { Field, ID, InputType } from "@nestjs/graphql";
-import { SwapReason } from "@vitalai/shared-types";
+import { SwapReason } from "@vital-ai/shared-types";
 
 @InputType({ description: "Payload requesting an intelligent exercise replacement" })
 export class RequestExerciseSwapInput {

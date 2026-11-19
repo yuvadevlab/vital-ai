@@ -36,7 +36,7 @@ To maintain clean monorepo architecture and maximize code reuse across DevLab pr
 │   • MultiRingGauge, AiReasoningAccordion, ActionProposalCard          │
 │   • StatMetricCard, CountdownTimer, StatusPill                        │
 ├────────────────────────────────────────────────────────────────────────┤
-│ Tier 2: Domain Vitality Primitives (@vitalai/ui)                       │
+│ Tier 2: Domain Vitality Primitives (@vital-ai/ui)                       │
 │   • MuscleHeatmap (SVG Body Map), HealthGuardrailBadge                │
 │   • MesocycleTimeline, PurineRiskMeter, GlycemicTimeline               │
 │   • ExerciseSetRow, AdvisorPersonaCard, AutoTriageBadge               │
@@ -95,7 +95,7 @@ These components contain **zero domain-specific health logic** and are fully reu
 
 ---
 
-## 4. Tier 2: Domain UI Package (`@vitalai/ui`)
+## 4. Tier 2: Domain UI Package (`@vital-ai/ui`)
 
 These components encapsulate **health, fitness, and biomechanical domain rules**:
 
@@ -250,7 +250,7 @@ src/features/<feature>/
 ## 7. Implementation Checklist & Phasing
 
 - [ ] **Phase A**: Add generic primitives (`<MultiRingGauge />`, `<AiReasoningAccordion />`, `<ActionProposalCard />`, `<CountdownTimer />`) to `@yuva-devlab/ui`.
-- [ ] **Phase B**: Implement domain primitives (`<MuscleHeatmap />`, `<HealthGuardrailBadge />`, `<MesocycleTimeline />`, `<PurineRiskMeter />`, `<AdvisorPersonaCard />`) in `@vitalai/ui`.
+- [ ] **Phase B**: Implement domain primitives (`<MuscleHeatmap />`, `<HealthGuardrailBadge />`, `<MesocycleTimeline />`, `<PurineRiskMeter />`, `<AdvisorPersonaCard />`) in `@vital-ai/ui`.
 - [ ] **Phase C**: Construct the Web App Shell, App Layout, and Sidebar in `apps/web`.
 - [ ] **Phase D**: Assemble the feature views (`DashboardView`, `HealthVaultView`, `WorkoutsView`, `NutritionView`, `AdvisorStudioView`).
 - [ ] **Phase E**: Wire GraphQL queries, mutations, and SSE token streaming in `apps/api`.

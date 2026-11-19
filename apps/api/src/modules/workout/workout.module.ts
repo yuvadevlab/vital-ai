@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/workout/workout.module.ts
  * @description NestJS module configuring periodized workout generation, set logging, and biomechanical swaps.
- * @module @vitalai/api/workout
+ * @module @vital-ai/api/workout
  */
 
 import { Module } from "@nestjs/common";
