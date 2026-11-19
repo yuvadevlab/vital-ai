@@ -1,10 +1,10 @@
 /**
  * @file packages/ai-engine/src/react/trace-builder.ts
  * @description Builder for 100% transparent AI Reasoning and Safety Traces.
- * @module @vitalai/ai-engine/react
+ * @module @vital-ai/ai-engine/react
  */
 
-import { AiReasoningTrace, ClinicalReasoningPhase } from "@vitalai/shared-types";
+import { AiReasoningTrace, ClinicalReasoningPhase } from "@vital-ai/shared-types";
 
 export class TraceBuilder {
   private readonly startTime = performance.now();

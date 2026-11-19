@@ -1,8 +1,8 @@
 /**
  * @file packages/ai-engine/src/index.ts
- * @description Master barrel export for the @vitalai/ai-engine package.
+ * @description Master barrel export for the @vital-ai/ai-engine package.
  * Single source of truth for the cognitive ReAct loop, math tool registry, and multi-LLM providers.
- * @module @vitalai/ai-engine
+ * @module @vital-ai/ai-engine
  */
 
 export * from "./advisor-engine";

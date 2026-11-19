@@ -1,11 +1,11 @@
 /**
  * @file packages/validation/src/profile.schema.ts
  * @description Zod validation schemas for user onboarding, physical traits, and Muscle Monster equipment selection.
- * @module @vitalai/validation
+ * @module @vital-ai/validation
  */
 
 import { z } from "zod";
-import { BiologicalSex, ActivityLevel, CaloricGoal, LifeStage } from "@vitalai/shared-types";
+import { BiologicalSex, ActivityLevel, CaloricGoal, LifeStage } from "@vital-ai/shared-types";
 
 /**
  * Validates clinical biometric inputs during initial user onboarding.

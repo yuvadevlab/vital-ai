@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/health-condition/resolvers/health-condition.resolver.ts
  * @description GraphQL resolver exposing Health Vault queries and mutations.
- * @module @vitalai/api/health-condition
+ * @module @vital-ai/api/health-condition
  */
 
 import { UseGuards } from "@nestjs/common";

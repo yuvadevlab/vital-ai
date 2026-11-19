@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/utils/uuid.ts
  * @description RFC 4122 compliant UUID generation utilities using the official uuid package.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 import { v4, v5 } from "uuid";

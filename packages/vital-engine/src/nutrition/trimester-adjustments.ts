@@ -1,10 +1,10 @@
 /**
  * @file packages/vital-engine/src/nutrition/trimester-adjustments.ts
  * @description Obstetric clinical energy and hydration adjustments across pregnancy and postpartum stages.
- * @module @vitalai/vital-engine
+ * @module @vital-ai/vital-engine
  */
 
-import { LifeStage } from "@vitalai/shared-types";
+import { LifeStage } from "@vital-ai/shared-types";
 
 export interface ObstetricAdjustment {
   readonly additionalKcal: number;

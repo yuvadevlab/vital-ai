@@ -2,7 +2,7 @@
  * @file packages/database/src/seeds/seed-advisors.ts
  * @description Idempotent database seeder for prebuilt clinical & athletic advisor personas.
  * All advisor prompts and capabilities originate from the database rather than hardcoded code files.
- * @module @vitalai/database/seeds
+ * @module @vital-ai/database/seeds
  */
 
 import { PrismaClient, AdvisorSpecialty, AdvisorTone } from "@prisma/client";

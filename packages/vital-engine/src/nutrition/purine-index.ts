@@ -1,10 +1,10 @@
 /**
  * @file packages/vital-engine/src/nutrition/purine-index.ts
  * @description Evaluates daily purine intake to prevent hyperuricemia and gout crystal precipitation.
- * @module @vitalai/vital-engine
+ * @module @vital-ai/vital-engine
  */
 
-import { PurineRiskLevel, type MealItem, type PurineRiskReport } from "@vitalai/shared-types";
+import { PurineRiskLevel, type MealItem, type PurineRiskReport } from "@vital-ai/shared-types";
 
 /**
  * Clinical threshold for purine intake in individuals with gout history or hyperuricemia.

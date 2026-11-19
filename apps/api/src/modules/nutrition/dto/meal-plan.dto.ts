@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/nutrition/dto/meal-plan.dto.ts
  * @description GraphQL ObjectTypes for daily meal plans, purine risk evaluations, and glycemic load curves.
- * @module @vitalai/api/nutrition
+ * @module @vital-ai/api/nutrition
  */
 
 import { Field, Float, ID, ObjectType, registerEnumType } from "@nestjs/graphql";
-import { PurineRiskLevel, GlycemicLoadStatus } from "@vitalai/shared-types";
+import { PurineRiskLevel, GlycemicLoadStatus } from "@vital-ai/shared-types";
 import { MealItemResponse } from "./meal-item.dto";
 
 registerEnumType(PurineRiskLevel, {

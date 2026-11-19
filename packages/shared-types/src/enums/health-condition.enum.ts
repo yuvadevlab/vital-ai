@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/enums/health-condition.enum.ts
  * @description Health Memory Vault classifications and clinical guardrail severities with UUID generation.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 import { generateCatalogUuid } from "../utils/uuid";

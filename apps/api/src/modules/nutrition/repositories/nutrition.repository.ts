@@ -1,12 +1,12 @@
 /**
  * @file apps/api/src/modules/nutrition/repositories/nutrition.repository.ts
  * @description Data access repository for DailyMealPlan and MealItem models in PostgreSQL.
- * @module @vitalai/api/nutrition
+ * @module @vital-ai/api/nutrition
  */
 
 import { Injectable } from "@nestjs/common";
 import { Logger } from "@yuva-devlab/logger";
-import { type Prisma } from "@vitalai/database";
+import { type Prisma } from "@vital-ai/database";
 import { PrismaService } from "../../prisma/prisma.service";
 
 @Injectable()

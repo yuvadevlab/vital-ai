@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/workout/services/workout.service.ts
  * @description Business logic service generating 6-week mesocycles, volume checks, and exercise swaps.
- * @module @vitalai/api/workout
+ * @module @vital-ai/api/workout
  */
 
 import { Injectable, NotFoundException } from "@nestjs/common";
@@ -9,10 +9,10 @@ import { Logger } from "@yuva-devlab/logger";
 import {
   type MesocyclePhase as PrismaMesocyclePhase,
   type SwapReason as PrismaSwapReason,
-} from "@vitalai/database";
-import { MesocyclePhase, MuscleGroup, SwapReason } from "@vitalai/shared-types";
-import { getVolumeLandmarks, evaluateVolumeStatus } from "@vitalai/vital-engine";
-import { EXERCISE_TAXONOMY } from "@vitalai/constants";
+} from "@vital-ai/database";
+import { MesocyclePhase, MuscleGroup, SwapReason } from "@vital-ai/shared-types";
+import { getVolumeLandmarks, evaluateVolumeStatus } from "@vital-ai/vital-engine";
+import { EXERCISE_TAXONOMY } from "@vital-ai/constants";
 import { WorkoutRepository } from "../repositories/workout.repository";
 import { HealthConditionService } from "../../health-condition/services/health-condition.service";
 import {

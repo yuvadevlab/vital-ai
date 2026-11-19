@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/common/interceptors/transform.interceptor.ts
  * @description Standard response envelope interceptor wrapping REST controller outputs.
- * @module @vitalai/api/common
+ * @module @vital-ai/api/common
  */
 
 import { Injectable, NestInterceptor, ExecutionContext, CallHandler } from "@nestjs/common";

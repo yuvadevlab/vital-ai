@@ -2,7 +2,7 @@
  * @file apps/api/src/config/api-config.schema.ts
  * @description Zod schema for validating backend runtime environment variables.
  * Enforces fail-fast validation at server initialization.
- * @module @vitalai/api/config
+ * @module @vital-ai/api/config
  */
 
 import { z } from "zod";

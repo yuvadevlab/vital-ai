@@ -2,7 +2,7 @@
  * @file apps/api/src/main.ts
  * @description Bootstrap entrypoint for the VitalAI API Gateway using NestJS with Fastify HTTP adapter,
  * Mercurius GraphQL engine, Swagger OpenAPI docs, and DevLab platform standards.
- * @module @vitalai/api
+ * @module @vital-ai/api
  */
 
 import "reflect-metadata";

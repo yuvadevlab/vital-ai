@@ -1,7 +1,7 @@
 /**
  * @file packages/prompts/src/system/react-format.prompt.ts
  * @description Standardized ReAct thought-action-observation reasoning instructions.
- * @module @vitalai/prompts/system
+ * @module @vital-ai/prompts/system
  */
 
 export function buildReActInstructions(
@@ -11,7 +11,7 @@ export function buildReActInstructions(
   return `Answer the user query using the following ReAct reasoning format:
 
 Question: the user query
-Thought: think carefully about whether mathematical verification from @vitalai/vital-engine is required
+Thought: think carefully about whether mathematical verification from @vital-ai/vital-engine is required
 Action: one tool name from [${toolNames.join(", ")}]
 Action Input: valid JSON dictionary matching the tool parameter schema
 Observation: result returned from the tool

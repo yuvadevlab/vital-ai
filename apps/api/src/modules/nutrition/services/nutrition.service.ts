@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/nutrition/services/nutrition.service.ts
  * @description Business logic service for meal planning, purine calculation, and glycemic load analysis.
- * @module @vitalai/api/nutrition
+ * @module @vital-ai/api/nutrition
  */
 
 import { Injectable, NotFoundException, BadRequestException } from "@nestjs/common";
@@ -10,17 +10,17 @@ import {
   type DailyMealPlan,
   type MealItem as PrismaMealItem,
   type MealType as PrismaMealType,
-} from "@vitalai/database";
+} from "@vital-ai/database";
 
 type PlanWithMeals = DailyMealPlan & {
   readonly meals?: readonly PrismaMealItem[];
 };
-import { MealType, LifeStage } from "@vitalai/shared-types";
+import { MealType, LifeStage } from "@vital-ai/shared-types";
 import {
   evaluateDailyPurineRisk,
   evaluateDailyGlycemicLoad,
   getLifeStageAdjustments,
-} from "@vitalai/vital-engine";
+} from "@vital-ai/vital-engine";
 import { NutritionRepository } from "../repositories/nutrition.repository";
 import { UserService } from "../../user/services/user.service";
 import { HealthConditionService } from "../../health-condition/services/health-condition.service";

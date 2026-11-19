@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/common/pagination/pagination.args.ts
  * @description Relay-compliant connection arguments for forward and backward cursor pagination.
- * @module @vitalai/api/common
+ * @module @vital-ai/api/common
  */
 
 import { ArgsType, Field, Int } from "@nestjs/graphql";

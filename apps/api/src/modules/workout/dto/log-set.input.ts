@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/workout/dto/log-set.input.ts
  * @description GraphQL InputType for recording completed workout sets in the active gym HUD.
- * @module @vitalai/api/workout
+ * @module @vital-ai/api/workout
  */
 
 import { Field, Float, ID, InputType, Int } from "@nestjs/graphql";

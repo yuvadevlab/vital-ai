@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/advisor/controllers/advisor-stream.controller.ts
  * @description Fastify SSE Streaming Controller providing real-time AI tokens and reasoning traces.
- * @module @vitalai/api/advisor
+ * @module @vital-ai/api/advisor
  */
 
 import { Controller, Post, Body, Res, UseGuards } from "@nestjs/common";

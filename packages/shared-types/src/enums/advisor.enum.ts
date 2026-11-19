@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/enums/advisor.enum.ts
  * @description AI Advisor Studio, clinical personas, and auto-dispatch triage enums.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 /**

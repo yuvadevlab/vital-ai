@@ -1,10 +1,10 @@
 /**
  * @file packages/constants/src/nutrition.ts
  * @description Curated clinical purine concentrations, glycemic index ratings, and micronutrient benchmarks.
- * @module @vitalai/constants
+ * @module @vital-ai/constants
  */
 
-import { FoodPurineId, FoodGlycemicId, FoodTag, PurineRiskLevel } from "@vitalai/shared-types";
+import { FoodPurineId, FoodGlycemicId, FoodTag, PurineRiskLevel } from "@vital-ai/shared-types";
 
 export interface FoodPurineEntry {
   readonly id: FoodPurineId;

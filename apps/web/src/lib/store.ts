@@ -8,7 +8,7 @@ import {
   ExperienceLevelEnum,
   FocusAreaEnum,
   VitalStorageKey,
-} from "@vitalai/shared-types";
+} from "@vital-ai/shared-types";
 
 export type { Goal, Equipment };
 

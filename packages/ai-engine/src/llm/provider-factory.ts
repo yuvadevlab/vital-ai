@@ -1,7 +1,7 @@
 /**
  * @file packages/ai-engine/src/llm/provider-factory.ts
  * @description Provider-agnostic factory constructing ChatModel instances from client configuration.
- * @module @vitalai/ai-engine/llm
+ * @module @vital-ai/ai-engine/llm
  */
 
 import {

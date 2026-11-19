@@ -1,13 +1,13 @@
 /**
  * @file apps/api/src/modules/prisma/prisma.service.ts
- * @description NestJS lifecycle-aware wrapper around the @vitalai/database PrismaClient.
+ * @description NestJS lifecycle-aware wrapper around the @vital-ai/database PrismaClient.
  * Manages database connection pool initialization and graceful shutdown.
- * @module @vitalai/api/prisma
+ * @module @vital-ai/api/prisma
  */
 
 import { Injectable, type OnModuleInit, type OnModuleDestroy } from "@nestjs/common";
 import { Logger } from "@yuva-devlab/logger";
-import { prisma, type PrismaClient } from "@vitalai/database";
+import { prisma, type PrismaClient } from "@vital-ai/database";
 
 /**
  * Service providing typed access to the PostgreSQL database via Prisma ORM.

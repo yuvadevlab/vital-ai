@@ -12,7 +12,7 @@
 | Metric                    | Current State                                                                       |
 | :------------------------ | :---------------------------------------------------------------------------------- |
 | **Current Active Phase**  | **Phase 4: Cognitive AI Advisory Harness (Ollama Multi-Persona)**                   |
-| **Next Immediate Task**   | **Task 5.1: Scaffold @vitalai/ui presentation design system**                       |
+| **Next Immediate Task**   | **Task 5.1: Scaffold @vital-ai/ui presentation design system**                      |
 | **Active Working Branch** | `feat/phase4-ai-engine` (branched from `dev`)                                       |
 | **Branching Rule**        | **ALWAYS branch from `dev`. NEVER checkout to `main`.**                             |
 | **Commit Rule**           | **NEVER auto-commit or auto-push without explicit user confirmation.**              |
@@ -60,7 +60,7 @@
 
 _Goal_: Build the foundational TypeScript packages containing zero I/O and zero database dependencies.
 
-#### Task 1.1: `@vitalai/shared-types`
+#### Task 1.1: `@vital-ai/shared-types`
 
 - [x] Create `packages/shared-types/package.json` and `tsconfig.json`.
 - [x] Define canonical Enums (Zero bare string literals):
@@ -72,7 +72,7 @@ _Goal_: Build the foundational TypeScript packages containing zero I/O and zero 
 - [x] Define shared DTO contracts for Health Memories, Mesocycles, Workout Days, and Nutrition Goals.
 - [x] Centralize `API_ENDPOINTS`, `QUERY_KEYS`, and `APP_ROUTES`.
 
-#### Task 1.2: `@vitalai/vital-engine` (Pure Mathematical Core)
+#### Task 1.2: `@vital-ai/vital-engine` (Pure Mathematical Core)
 
 - [x] Create `packages/vital-engine/package.json` and `tsconfig.json`.
 - [x] Implement exercise physiology calculations:
@@ -87,13 +87,13 @@ _Goal_: Build the foundational TypeScript packages containing zero I/O and zero 
   - [x] Pregnancy trimester caloric adjustments (+0 kcal T1, +340 kcal T2, +452 kcal T3) and micronutrient thresholds (Folate, Iron, Choline, DHA).
 - [x] 100% deterministic test coverage with Vitest (`packages/vital-engine/src/__tests__/*`).
 
-#### Task 1.3: `@vitalai/constants`
+#### Task 1.3: `@vital-ai/constants`
 
 - [x] Curate 1,300+ Exercise library taxonomy with target muscles, equipment tags, and contraindication tags.
 - [x] Curate food purine levels, glycemic indices, and trimester nutritional benchmarks.
 - [x] Curate medical contraindication matrix (maps conditions $\rightarrow$ blacklisted exercise tags & foods).
 
-#### Task 1.4: `@vitalai/validation`
+#### Task 1.4: `@vital-ai/validation`
 
 - [x] Centralized Zod validation schemas for:
   - [x] User onboarding and profile updates.
@@ -165,7 +165,7 @@ _Goal_: Build the NestJS 11 Fastify GraphQL API with Code-First schema resolutio
 
 #### Task 3.3: 5-Layer Feature Modules
 
-- [x] `modules/user`: User profile resolver, onboarding questionnaire mutation, dynamic BMR/TDEE calculation via `@vitalai/vital-engine`, `@CurrentUser()` queries.
+- [x] `modules/user`: User profile resolver, onboarding questionnaire mutation, dynamic BMR/TDEE calculation via `@vital-ai/vital-engine`, `@CurrentUser()` queries.
 - [x] `modules/health-condition`: Medical conditions vault, clinical contraindication auto-matching from `CONTRAINDICATION_MATRIX`, movement/food blacklists.
 - [x] `modules/workout`: 6-week periodized mesocycle generator, active gym session HUD, set logging mutation, biomechanical exercise swap proposals.
 - [x] `modules/nutrition`: Daily meal planner, purine risk score evaluation (<300mg/day), glycemic load curves, obstetric trimester surplus adjustments.
@@ -192,18 +192,18 @@ _Goal_: Build the multi-persona ReAct agent engine using local Ollama models.
   - [x] `Dr. Sarah Jenkins` (`OBSTETRIC_HEALTH`): Pregnancy trimester guidance, fetal milestones, pelvic floor safety.
 - [x] Implement Tier-1 Deterministic Medical Safety Guardrails (`Tier1SafetyFilter`):
   - Enforce hard exclusions on blacklisted exercises (`EXERCISE_TAXONOMY`) and food items (`FoodTag`) from `CONTRAINDICATION_MATRIX` before LLM generation.
-- [x] Implement deterministic math tools delegating exclusively to `@vitalai/vital-engine`:
+- [x] Implement deterministic math tools delegating exclusively to `@vital-ai/vital-engine`:
   - [x] `calculate_tdee`, `calculate_macros`, `glycemic_load`, `trimester_adjustments` (`nutrition-tools.ts`).
   - [x] `evaluate_volume_landmarks`, `calculate_target_rir` (`physiology-tools.ts`).
 - [x] Implement ReAct cognitive reasoning loop with 100% transparent `AiReasoningTrace` and `TwoPhaseActionProposal` extractor (`proposal-parser.ts`).
-- [x] Wire `@vitalai/ai-engine` into `apps/api`'s `AdvisorService` and Fastify SSE endpoint (`/api/v1/advisor/stream`).
+- [x] Wire `@vital-ai/ai-engine` into `apps/api`'s `AdvisorService` and Fastify SSE endpoint (`/api/v1/advisor/stream`).
 - [x] Enforce zero bare strings (canonical enums across all parameters) and strictly respect 250-line maximum rule.
 
 ---
 
 ### Phase 5: Domain UI Component System (`STATUS: PENDING ⏳`)
 
-_Goal_: Build presentation components and visual human anatomy maps in `@vitalai/ui`, elevating the prototypes from `friendly-error-pages-99f72791` into a high-craft, state-of-the-art design system using `@yuva-devlab/tokens`.
+_Goal_: Build presentation components and visual human anatomy maps in `@vital-ai/ui`, elevating the prototypes from `friendly-error-pages-99f72791` into a high-craft, state-of-the-art design system using `@yuva-devlab/tokens`.
 
 - [ ] Create `packages/ui` linked to `@yuva-devlab/tokens`.
 - [ ] Build `<ReasoningTrace />`: Collapsible multi-phase AI clinical evaluation HUD with animated step indicators and timing.
@@ -250,5 +250,5 @@ _Goal_: Assemble the responsive user interface adhering to SSR boundary invarian
 2. **Never Checkout to `main` Locally**: Leave `main` untouched.
 3. **No Auto-Commit / Auto-Push**: Always summarize changes and ask the user for confirmation before committing.
 4. **No Auto-Seeding**: Always ask before running any database seed scripts.
-5. **Deterministic Math Supremacy**: The LLM _never_ performs raw arithmetic; all calculations delegate to `@vitalai/vital-engine`.
-6. **Zero Bare Strings**: Canonical enums from `@vitalai/shared-types` are mandatory.
+5. **Deterministic Math Supremacy**: The LLM _never_ performs raw arithmetic; all calculations delegate to `@vital-ai/vital-engine`.
+6. **Zero Bare Strings**: Canonical enums from `@vital-ai/shared-types` are mandatory.

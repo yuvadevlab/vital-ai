@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/nutrition/dto/create-meal-plan.input.ts
  * @description GraphQL InputType for generating a daily meal plan with biometric targets.
- * @module @vitalai/api/nutrition
+ * @module @vital-ai/api/nutrition
  */
 
 import { Field, InputType } from "@nestjs/graphql";

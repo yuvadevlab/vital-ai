@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/common/errors/mercurius-error-formatter.ts
  * @description Formatter sanitizing and structuring Mercurius GraphQL errors to match DevLab platform standards.
- * @module @vitalai/api/common
+ * @module @vital-ai/api/common
  */
 
 import {

@@ -1,10 +1,10 @@
 /**
  * @file packages/prompts/src/personas/sarah-obstetric.prompt.ts
  * @description Persona prompt definition for Dr. Sarah Jenkins (Maternal Care & Prenatal Health).
- * @module @vitalai/prompts/personas
+ * @module @vital-ai/prompts/personas
  */
 
-import { AdvisorSpecialty, AdvisorTone, LifeStage } from "@vitalai/shared-types";
+import { AdvisorSpecialty, AdvisorTone, LifeStage } from "@vital-ai/shared-types";
 import { PersonaDefinition, PersonaContext, AdvisorPersonaId } from "./persona.types";
 
 export const sarahObstetricPersona: PersonaDefinition = {

@@ -1,10 +1,10 @@
 /**
  * @file packages/vital-engine/src/physiology/overload-progression.ts
  * @description 6-week hypertrophy mesocycle periodization, RIR targets, and progressive overload calculations.
- * @module @vitalai/vital-engine
+ * @module @vital-ai/vital-engine
  */
 
-import { MesocyclePhase, ExerciseCategory } from "@vitalai/shared-types";
+import { MesocyclePhase, ExerciseCategory } from "@vital-ai/shared-types";
 
 /**
  * Returns the target Reps in Reserve (RIR) based on the current week of a 6-week mesocycle.

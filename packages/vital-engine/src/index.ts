@@ -1,8 +1,8 @@
 /**
  * @file packages/vital-engine/src/index.ts
- * @description Master barrel export for the @vitalai/vital-engine package.
+ * @description Master barrel export for the @vital-ai/vital-engine package.
  * Single source of truth for all pure exercise physiology and clinical nutrition math.
- * @module @vitalai/vital-engine
+ * @module @vital-ai/vital-engine
  */
 
 export * from "./physiology";

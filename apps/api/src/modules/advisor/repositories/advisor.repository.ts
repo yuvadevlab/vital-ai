@@ -1,12 +1,12 @@
 /**
  * @file apps/api/src/modules/advisor/repositories/advisor.repository.ts
  * @description Data access repository for AdvisorPersona and ChatMessage models in PostgreSQL.
- * @module @vitalai/api/advisor
+ * @module @vital-ai/api/advisor
  */
 
 import { Injectable } from "@nestjs/common";
 import { Logger } from "@yuva-devlab/logger";
-import { type Prisma } from "@vitalai/database";
+import { type Prisma } from "@vital-ai/database";
 import { PrismaService } from "../../prisma/prisma.service";
 
 @Injectable()

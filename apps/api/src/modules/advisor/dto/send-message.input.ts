@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/advisor/dto/send-message.input.ts
  * @description GraphQL InputType for submitting a user query to the AI Advisor harness.
- * @module @vitalai/api/advisor
+ * @module @vital-ai/api/advisor
  */
 
 import { Field, ID, InputType } from "@nestjs/graphql";

@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/enums/life-stage.enum.ts
  * @description Life stage and physiological phase enums for clinical nutrition and training adjustments.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 /**

@@ -1,12 +1,12 @@
 /**
  * @file apps/api/src/config/api-config.ts
  * @description Single source of truth for runtime configuration with automatic .env discovery and AI model mapping.
- * @module @vitalai/api/config
+ * @module @vital-ai/api/config
  */
 
 import path from "node:path";
 import dotenv from "dotenv";
-import { AiProvider, ChatModelConfig, VitalAiEngineConfig } from "@vitalai/ai-engine";
+import { AiProvider, ChatModelConfig, VitalAiEngineConfig } from "@vital-ai/ai-engine";
 import { apiConfigSchema, type ApiConfig } from "./api-config.schema";
 
 let cachedConfig: ApiConfig | null = null;

@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/user/dto/complete-onboarding.input.ts
  * @description GraphQL InputType capturing full biometrics and onboarding questionnaire answers.
- * @module @vitalai/api/user
+ * @module @vital-ai/api/user
  */
 
 import { Field, Float, InputType, Int } from "@nestjs/graphql";
-import { BiologicalSex, ActivityLevel, CaloricGoal, LifeStage } from "@vitalai/shared-types";
+import { BiologicalSex, ActivityLevel, CaloricGoal, LifeStage } from "@vital-ai/shared-types";
 
 /**
  * Input payload submitted upon completing the onboarding questionnaire.

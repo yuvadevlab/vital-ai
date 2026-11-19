@@ -2,7 +2,7 @@
  * @file apps/api/src/common/filters/http-exception.filter.ts
  * @description Global exception filter converting unhandled errors and HTTP exceptions
  * into standardized, sanitized JSON error responses with logging.
- * @module @vitalai/api/common
+ * @module @vital-ai/api/common
  */
 
 import { ExceptionFilter, Catch, ArgumentsHost, HttpException, HttpStatus } from "@nestjs/common";

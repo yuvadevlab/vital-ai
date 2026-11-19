@@ -1,7 +1,7 @@
 /**
  * @file packages/vital-engine/src/physiology/index.ts
  * @description Barrel export for exercise physiology and volume landmark calculations.
- * @module @vitalai/vital-engine
+ * @module @vital-ai/vital-engine
  */
 
 export * from "./volume-landmarks";

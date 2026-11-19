@@ -38,9 +38,9 @@ gantt
 ### Phase 1: Polyglot Foundation & Monorepo Redesign (Current Milestone - Ready to Merge)
 
 - [x] Establish polyglot monorepo structure with Turborepo 2 + pnpm + UV.
-- [x] Design `@vitalai/shared-types` with canonical Zod schemas matching backend specifications.
-- [x] Design `@vitalai/ui` with Muscle Monster OKLCH theme tokens (Volt Green, Cyber Cyan, Ember Flame, Obsidian Carbon).
-- [x] Scaffold `@vitalai/web` with kinetic motion, onboarding wizard, command center, active HUD, and universal insight widget.
+- [x] Design `@vital-ai/shared-types` with canonical Zod schemas matching backend specifications.
+- [x] Design `@vital-ai/ui` with Muscle Monster OKLCH theme tokens (Volt Green, Cyber Cyan, Ember Flame, Obsidian Carbon).
+- [x] Scaffold `@vital-ai/web` with kinetic motion, onboarding wizard, command center, active HUD, and universal insight widget.
 - [x] Establish root automation (`Makefile`, `docker-compose.yml`, `.env.example`).
 - [x] Update Staff-level documentation (`docs/ARCHITECTURE.md`, `docs/API_SPEC.md`, `docs/MASTER_ROADMAP.md`).
 

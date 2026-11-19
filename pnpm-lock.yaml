@@ -250,22 +250,22 @@ importers:
       '@nestjs/throttler':
         specifier: ^6.4.0
         version: 6.7.1(@nestjs/common@11.2.7(reflect-metadata@0.2.2)(rxjs@7.8.2)(supports-color@8.1.1))(@nestjs/core@11.2.7(@nestjs/common@11.2.7(reflect-metadata@0.2.2)(rxjs@7.8.2)(supports-color@8.1.1))(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)
-      '@vitalai/ai-engine':
+      '@vital-ai/ai-engine':
         specifier: workspace:*
         version: link:../../packages/ai-engine
-      '@vitalai/constants':
+      '@vital-ai/constants':
         specifier: workspace:*
         version: link:../../packages/constants
-      '@vitalai/database':
+      '@vital-ai/database':
         specifier: workspace:*
         version: link:../../packages/database
-      '@vitalai/shared-types':
+      '@vital-ai/shared-types':
         specifier: workspace:*
         version: link:../../packages/shared-types
-      '@vitalai/validation':
+      '@vital-ai/validation':
         specifier: workspace:*
         version: link:../../packages/validation
-      '@vitalai/vital-engine':
+      '@vital-ai/vital-engine':
         specifier: workspace:*
         version: link:../../packages/vital-engine
       '@yuva-devlab/auth-server':
@@ -341,10 +341,10 @@ importers:
       '@tanstack/react-query':
         specifier: ^5.101.1
         version: 5.104.3(react@19.3.1)
-      '@vitalai/shared-types':
+      '@vital-ai/shared-types':
         specifier: workspace:*
         version: link:../../packages/shared-types
-      '@vitalai/ui':
+      '@vital-ai/ui':
         specifier: workspace:*
         version: link:../../packages/ui
       clsx:
@@ -405,19 +405,19 @@ importers:
 
   packages/ai-engine:
     dependencies:
-      '@vitalai/constants':
+      '@vital-ai/constants':
         specifier: workspace:*
         version: link:../constants
-      '@vitalai/prompts':
+      '@vital-ai/prompts':
         specifier: workspace:*
         version: link:../prompts
-      '@vitalai/shared-types':
+      '@vital-ai/shared-types':
         specifier: workspace:*
         version: link:../shared-types
-      '@vitalai/validation':
+      '@vital-ai/validation':
         specifier: workspace:*
         version: link:../validation
-      '@vitalai/vital-engine':
+      '@vital-ai/vital-engine':
         specifier: workspace:*
         version: link:../vital-engine
       '@yuva-devlab/ai-client':
@@ -442,7 +442,7 @@ importers:
 
   packages/constants:
     dependencies:
-      '@vitalai/shared-types':
+      '@vital-ai/shared-types':
         specifier: workspace:*
         version: link:../shared-types
       uuid:
@@ -467,7 +467,7 @@ importers:
       '@prisma/client':
         specifier: ^7.8.0
         version: 7.10.1(prisma@7.10.1(@types/node@22.20.5)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(typescript@5.9.3))(typescript@5.9.3)
-      '@vitalai/shared-types':
+      '@vital-ai/shared-types':
         specifier: workspace:*
         version: link:../shared-types
       dotenv:
@@ -498,10 +498,10 @@ importers:
 
   packages/prompts:
     dependencies:
-      '@vitalai/constants':
+      '@vital-ai/constants':
         specifier: workspace:*
         version: link:../constants
-      '@vitalai/shared-types':
+      '@vital-ai/shared-types':
         specifier: workspace:*
         version: link:../shared-types
     devDependencies:
@@ -570,7 +570,7 @@ importers:
 
   packages/validation:
     dependencies:
-      '@vitalai/shared-types':
+      '@vital-ai/shared-types':
         specifier: workspace:*
         version: link:../shared-types
       zod:
@@ -586,7 +586,7 @@ importers:
 
   packages/vital-engine:
     dependencies:
-      '@vitalai/shared-types':
+      '@vital-ai/shared-types':
         specifier: workspace:*
         version: link:../shared-types
     devDependencies:

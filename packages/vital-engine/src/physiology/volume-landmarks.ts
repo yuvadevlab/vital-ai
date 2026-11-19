@@ -2,10 +2,10 @@
  * @file packages/vital-engine/src/physiology/volume-landmarks.ts
  * @description Scientific volume landmarks per muscle group based on Dr. Mike Israetel's hypertrophy literature.
  * Pure deterministic functions with zero side-effects.
- * @module @vitalai/vital-engine
+ * @module @vital-ai/vital-engine
  */
 
-import { MuscleGroup, VolumeStatus, type VolumeLandmarks } from "@vitalai/shared-types";
+import { MuscleGroup, VolumeStatus, type VolumeLandmarks } from "@vital-ai/shared-types";
 
 /**
  * Baseline scientific volume landmark table (weekly direct working sets).

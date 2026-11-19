@@ -1,7 +1,7 @@
 /**
  * @file packages/validation/src/health-vault.schema.ts
  * @description Zod validation schemas for the private Health Memory Vault and clinical guardrail rules.
- * @module @vitalai/validation
+ * @module @vital-ai/validation
  */
 
 import { z } from "zod";
@@ -10,7 +10,7 @@ import {
   ConditionSeverity,
   GuardrailType,
   FoodTag,
-} from "@vitalai/shared-types";
+} from "@vital-ai/shared-types";
 
 /**
  * Validates adding a private health condition, injury, or metabolic memory to the vault.

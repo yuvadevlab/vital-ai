@@ -1,5 +1,5 @@
 {
-  "name": "@vitalai/prompts",
+  "name": "@vital-ai/prompts",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -24,8 +24,8 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@vitalai/constants": "workspace:*",
-    "@vitalai/shared-types": "workspace:*"
+    "@vital-ai/constants": "workspace:*",
+    "@vital-ai/shared-types": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^22.13.10",

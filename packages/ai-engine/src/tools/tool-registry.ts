@@ -1,7 +1,7 @@
 /**
  * @file packages/ai-engine/src/tools/tool-registry.ts
  * @description Central registry managing deterministic AI engine tools.
- * @module @vitalai/ai-engine/tools
+ * @module @vital-ai/ai-engine/tools
  */
 
 import { Logger } from "@yuva-devlab/logger";

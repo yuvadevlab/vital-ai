@@ -1,14 +1,14 @@
 /**
  * @file apps/api/src/modules/user/services/user.service.ts
  * @description Domain business logic service managing user profiles and metabolic target calculations.
- * @module @vitalai/api/user
+ * @module @vital-ai/api/user
  */
 
 import { Injectable, NotFoundException } from "@nestjs/common";
 import { Logger } from "@yuva-devlab/logger";
-import { type User } from "@vitalai/database";
-import { BiologicalSex, ActivityLevel, CaloricGoal, LifeStage } from "@vitalai/shared-types";
-import { calculateBmrMifflinStJeor, calculateTdee } from "@vitalai/vital-engine";
+import { type User } from "@vital-ai/database";
+import { BiologicalSex, ActivityLevel, CaloricGoal, LifeStage } from "@vital-ai/shared-types";
+import { calculateBmrMifflinStJeor, calculateTdee } from "@vital-ai/vital-engine";
 import { UserRepository } from "../repositories/user.repository";
 import { CompleteOnboardingInput } from "../dto/complete-onboarding.input";
 import { UpdateProfileInput } from "../dto/update-profile.input";

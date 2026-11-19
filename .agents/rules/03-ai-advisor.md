@@ -1,6 +1,6 @@
 # VitalAI AI Advisor & Clinical Safety Rules (`packages/ai-engine`)
 
-> **Scope**: Applies to `@vitalai/ai-engine` and AI orchestration in `apps/api`.
+> **Scope**: Applies to `@vital-ai/ai-engine` and AI orchestration in `apps/api`.
 
 ---
 
@@ -17,7 +17,7 @@ The AI advisor dynamically mounts one of three clinical/performance personas bas
 ## 2. Deterministic Science Priority (LLMs Never Do Math)
 
 1. **Zero Hallucinated Numbers**: Neural models are strictly forbidden from calculating calorie totals, macro distributions, 1RM estimations, or purine indices directly.
-2. **Delegation Protocol**: The AI advisor MUST call deterministic tool functions in `@vitalai/vital-engine` and incorporate the verified outputs into its conversational responses.
+2. **Delegation Protocol**: The AI advisor MUST call deterministic tool functions in `@vital-ai/vital-engine` and incorporate the verified outputs into its conversational responses.
 
 ---
 

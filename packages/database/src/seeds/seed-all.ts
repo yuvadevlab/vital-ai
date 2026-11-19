@@ -2,7 +2,7 @@
  * @file packages/database/src/seeds/seed-all.ts
  * @description Master database seed orchestrator running all seed modules idempotently.
  * Safe to execute at any time; never deletes, drops, or truncates existing user or platform data.
- * @module @vitalai/database/seeds
+ * @module @vital-ai/database/seeds
  */
 
 import { prisma, type PrismaClient } from "../client";

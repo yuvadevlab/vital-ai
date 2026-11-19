@@ -1,11 +1,11 @@
 /**
  * @file packages/ai-engine/src/react/react.types.ts
  * @description Canonical type definitions for the ReAct cognitive reasoning loop with dynamic DB advisors.
- * @module @vitalai/ai-engine/react
+ * @module @vital-ai/ai-engine/react
  */
 
-import { AiReasoningTrace, TwoPhaseActionProposal } from "@vitalai/shared-types";
-import { PersonaContext } from "@vitalai/prompts";
+import { AiReasoningTrace, TwoPhaseActionProposal } from "@vital-ai/shared-types";
+import { PersonaContext } from "@vital-ai/prompts";
 import { AiToolName } from "../tools/tool.types";
 
 export interface DynamicAdvisorProfile {

@@ -33,8 +33,8 @@ All AI agents must inspect and adhere to the relevant topic rulebooks:
 2. **Pure Platform CSS & Design Tokens**:
    - Utility-first CSS frameworks are prohibited. All styling is implemented using pure platform CSS, W3C Cascade Layers (`@layer dl-*`), and design tokens from `@yuva-devlab/tokens`.
 3. **Strict Polyglot Package Boundaries & Single Source of Truth**:
-   - Shared types, constants, enums, and schemas MUST live in `@vitalai/shared-types` (TypeScript) and mirror backend Pydantic v2 schemas.
-   - Frontend styling and design system tokens MUST live in `@vitalai/ui` using the Muscle Monster OKLCH palette.
+   - Shared types, constants, enums, and schemas MUST live in `@vital-ai/shared-types` (TypeScript) and mirror backend Pydantic v2 schemas.
+   - Frontend styling and design system tokens MUST live in `@vital-ai/ui` using the Muscle Monster OKLCH palette.
    - Backend logic MUST live in `apps/api` (Python FastAPI).
 4. **Standardized Logging (`.info`, `.warn`, `.error` ONLY)**:
    - Use ONLY `.info`, `.warn`, and `.error` log levels across backend and frontend.

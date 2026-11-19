@@ -1,10 +1,10 @@
 /**
  * @file packages/prompts/src/personas/persona-registry.ts
  * @description Central registry and prompt compiler for clinical AI personas.
- * @module @vitalai/prompts/personas
+ * @module @vital-ai/prompts/personas
  */
 
-import { AdvisorSpecialty } from "@vitalai/shared-types";
+import { AdvisorSpecialty } from "@vital-ai/shared-types";
 import { PersonaDefinition, PersonaContext, AdvisorPersonaId } from "./persona.types";
 import { elenaNutritionPersona } from "./elena-nutrition.prompt";
 import { marcusHypertrophyPersona } from "./marcus-hypertrophy.prompt";
