@@ -24,7 +24,7 @@ api-dev:
 	cd apps/api && uv run uvicorn src.main:app --reload --host 0.0.0.0 --port 4004
 
 web-dev:
-	pnpm --filter @vitalai/web dev
+	pnpm --filter @vital-ai/web dev
 
 test:
 	cd apps/api && uv run pytest
