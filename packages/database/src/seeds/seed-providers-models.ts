@@ -1,7 +1,7 @@
 /**
  * @file packages/database/src/seeds/seed-providers-models.ts
  * @description Idempotent database seeder for supported LLM providers and model catalog.
- * @module @vitalai/database/seeds
+ * @module @vital-ai/database/seeds
  */
 
 import { PrismaClient, Prisma } from "@prisma/client";

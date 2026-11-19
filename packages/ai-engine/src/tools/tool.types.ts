@@ -1,7 +1,7 @@
 /**
  * @file packages/ai-engine/src/tools/tool.types.ts
  * @description Standardized interface contracts and enums for deterministic AI engine tools.
- * @module @vitalai/ai-engine/tools
+ * @module @vital-ai/ai-engine/tools
  */
 
 /**

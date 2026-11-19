@@ -1,15 +1,15 @@
 /**
  * @file packages/ai-engine/src/tools/physiology-tools.ts
  * @description Deterministic exercise physiology and volume landmark tools.
- * @module @vitalai/ai-engine/tools
+ * @module @vital-ai/ai-engine/tools
  */
 
 import {
   getVolumeLandmarks,
   evaluateVolumeStatus,
   calculateTargetRir,
-} from "@vitalai/vital-engine";
-import { MuscleGroup, MesocyclePhase } from "@vitalai/shared-types";
+} from "@vital-ai/vital-engine";
+import { MuscleGroup, MesocyclePhase } from "@vital-ai/shared-types";
 import { AiToolDefinition, AiToolName, ToolParameterType } from "./tool.types";
 
 export const evaluateVolumeTool: AiToolDefinition = {

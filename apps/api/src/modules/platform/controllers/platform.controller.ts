@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/platform/controllers/platform.controller.ts
  * @description REST API controller exposing database-backed navigation, models, and platform configs.
- * @module @vitalai/api/platform
+ * @module @vital-ai/api/platform
  */
 
 import { Controller, Get, Param, Query } from "@nestjs/common";

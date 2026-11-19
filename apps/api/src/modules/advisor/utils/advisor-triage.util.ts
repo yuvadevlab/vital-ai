@@ -1,17 +1,17 @@
 /**
  * @file apps/api/src/modules/advisor/utils/advisor-triage.util.ts
  * @description Triage query router and mapping utilities for clinical AI advisor personas.
- * @module @vitalai/api/advisor
+ * @module @vital-ai/api/advisor
  */
 
-import { type AdvisorPersona, type ChatMessage } from "@vitalai/database";
+import { type AdvisorPersona, type ChatMessage } from "@vital-ai/database";
 import {
   AdvisorSpecialty,
   AdvisorTone,
   MessageRole,
   ClinicalReasoningPhase,
-} from "@vitalai/shared-types";
-import { DynamicAdvisorProfile } from "@vitalai/ai-engine";
+} from "@vital-ai/shared-types";
+import { DynamicAdvisorProfile } from "@vital-ai/ai-engine";
 import {
   AdvisorPersonaResponse,
   ChatMessageResponse,

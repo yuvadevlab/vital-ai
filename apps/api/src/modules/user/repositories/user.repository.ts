@@ -1,12 +1,12 @@
 /**
  * @file apps/api/src/modules/user/repositories/user.repository.ts
  * @description Data access repository managing User entity persistence via Prisma ORM.
- * @module @vitalai/api/user
+ * @module @vital-ai/api/user
  */
 
 import { Injectable } from "@nestjs/common";
 import { Logger } from "@yuva-devlab/logger";
-import { type User } from "@vitalai/database";
+import { type User } from "@vital-ai/database";
 import { PrismaService } from "../../prisma/prisma.service";
 import { CompleteOnboardingInput } from "../dto/complete-onboarding.input";
 import { UpdateProfileInput } from "../dto/update-profile.input";

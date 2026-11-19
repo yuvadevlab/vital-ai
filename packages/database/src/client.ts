@@ -1,7 +1,7 @@
 /**
  * @file packages/database/src/client.ts
  * @description Singleton PrismaClient with PostgreSQL driver adapter and connection pooling.
- * @module @vitalai/database
+ * @module @vital-ai/database
  */
 
 import { PrismaClient } from "@prisma/client";

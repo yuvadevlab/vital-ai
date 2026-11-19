@@ -2,10 +2,10 @@
  * @file packages/vital-engine/src/nutrition/tdee.ts
  * @description Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE) calculations.
  * Uses the clinically validated Mifflin-St Jeor and Katch-McArdle equations.
- * @module @vitalai/vital-engine
+ * @module @vital-ai/vital-engine
  */
 
-import { BiologicalSex, ActivityLevel } from "@vitalai/shared-types";
+import { BiologicalSex, ActivityLevel } from "@vital-ai/shared-types";
 
 export interface MifflinStJeorParams {
   readonly weightKg: number;

@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/enums/fitness.enum.ts
  * @description Scientific hypertrophy, periodization, and equipment taxonomy enums with dynamic UUID generation.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 import { generateCatalogUuid } from "../utils/uuid";

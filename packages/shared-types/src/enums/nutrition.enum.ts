@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/enums/nutrition.enum.ts
  * @description Clinical nutrition, glycemic index, and metabolic risk status enums with UUID generation.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 import { generateCatalogUuid } from "../utils/uuid";

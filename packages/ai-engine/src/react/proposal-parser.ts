@@ -1,10 +1,10 @@
 /**
  * @file packages/ai-engine/src/react/proposal-parser.ts
  * @description Extracts structured Two-Phase Action Proposals from LLM reasoning outputs.
- * @module @vitalai/ai-engine/react
+ * @module @vital-ai/ai-engine/react
  */
 
-import { ProposalType, ProposalStatus, TwoPhaseActionProposal } from "@vitalai/shared-types";
+import { ProposalType, ProposalStatus, TwoPhaseActionProposal } from "@vital-ai/shared-types";
 
 export class ProposalParser {
   /**

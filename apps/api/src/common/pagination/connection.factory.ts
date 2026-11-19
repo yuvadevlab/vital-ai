@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/common/pagination/connection.factory.ts
  * @description Generic TypeScript factory generating Relay-compliant Edge and Connection ObjectTypes.
- * @module @vitalai/api/common
+ * @module @vital-ai/api/common
  */
 
 import { type Type } from "@nestjs/common";

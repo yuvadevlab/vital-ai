@@ -1,7 +1,7 @@
 /**
  * @file packages/ai-engine/src/tools/nutrition-tools.ts
  * @description Deterministic nutrition and metabolic calculation tools.
- * @module @vitalai/ai-engine/tools
+ * @module @vital-ai/ai-engine/tools
  */
 
 import {
@@ -10,8 +10,8 @@ import {
   calculateMacroTargets,
   calculateMealGlycemicLoad,
   getLifeStageAdjustments,
-} from "@vitalai/vital-engine";
-import { BiologicalSex, ActivityLevel, CaloricGoal, LifeStage } from "@vitalai/shared-types";
+} from "@vital-ai/vital-engine";
+import { BiologicalSex, ActivityLevel, CaloricGoal, LifeStage } from "@vital-ai/shared-types";
 import { AiToolDefinition, AiToolName, ToolParameterType } from "./tool.types";
 
 export const calculateTdeeTool: AiToolDefinition = {

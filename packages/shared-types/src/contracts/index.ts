@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/contracts/index.ts
  * @description Barrel export for all API communication contracts.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 export * from "./health-vault.contract";

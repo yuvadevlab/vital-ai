@@ -1,11 +1,11 @@
 /**
  * @file packages/prompts/src/personas/marcus-hypertrophy.prompt.ts
  * @description Persona prompt definition for Marcus Vance (Hypertrophy & Periodization).
- * @module @vitalai/prompts/personas
+ * @module @vital-ai/prompts/personas
  */
 
-import { AdvisorSpecialty, AdvisorTone } from "@vitalai/shared-types";
-import { CONTRAINDICATION_MATRIX, EXERCISE_TAXONOMY } from "@vitalai/constants";
+import { AdvisorSpecialty, AdvisorTone } from "@vital-ai/shared-types";
+import { CONTRAINDICATION_MATRIX, EXERCISE_TAXONOMY } from "@vital-ai/constants";
 import { PersonaDefinition, PersonaContext, AdvisorPersonaId } from "./persona.types";
 
 export const marcusHypertrophyPersona: PersonaDefinition = {

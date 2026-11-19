@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/common/dataloaders/dataloader.types.ts
  * @description Interface definitions for batch DataLoaders eliminating N+1 database queries.
- * @module @vitalai/api/common
+ * @module @vital-ai/api/common
  */
 
 import type DataLoader from "dataloader";
-import { type SetLog, type PrescribedExercise, type ExerciseSwap } from "@vitalai/database";
+import { type SetLog, type PrescribedExercise, type ExerciseSwap } from "@vital-ai/database";
 
 export interface VitalDataLoaders {
   readonly setsByExerciseIdLoader: DataLoader<string, SetLog[]>;

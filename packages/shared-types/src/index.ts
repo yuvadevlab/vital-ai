@@ -1,8 +1,8 @@
 /**
  * @file packages/shared-types/src/index.ts
- * @description Master barrel export for the @vitalai/shared-types package.
+ * @description Master barrel export for the @vital-ai/shared-types package.
  * Single source of truth for enums, contracts, endpoints, query keys, schemas, and UUID utilities.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 export * from "./enums";

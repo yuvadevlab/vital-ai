@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/common/pagination/cursor.util.ts
  * @description Opaque cursor encoding and decoding utilities for Relay-compliant pagination.
- * @module @vitalai/api/common
+ * @module @vital-ai/api/common
  */
 
 export function encodeCursor(id: string): string {

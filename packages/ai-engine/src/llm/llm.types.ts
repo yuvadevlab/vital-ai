@@ -1,7 +1,7 @@
 /**
  * @file packages/ai-engine/src/llm/llm.types.ts
  * @description Provider-agnostic LLM chat contracts supporting multi-provider switching.
- * @module @vitalai/ai-engine/llm
+ * @module @vital-ai/ai-engine/llm
  */
 
 export enum AiProvider {

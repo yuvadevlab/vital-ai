@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/advisor/dto/persona.dto.ts
  * @description GraphQL ObjectType for clinical advisor staff personas.
- * @module @vitalai/api/advisor
+ * @module @vital-ai/api/advisor
  */
 
 import { Field, ID, ObjectType, registerEnumType } from "@nestjs/graphql";
-import { AdvisorSpecialty, AdvisorTone } from "@vitalai/shared-types";
+import { AdvisorSpecialty, AdvisorTone } from "@vital-ai/shared-types";
 
 registerEnumType(AdvisorSpecialty, {
   name: "AdvisorSpecialty",

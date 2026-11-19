@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/auth/auth.module.ts
  * @description NestJS module configuring Passport JWT authentication and DevLab SSO integration.
- * @module @vitalai/api/auth
+ * @module @vital-ai/api/auth
  */
 
 import { Module } from "@nestjs/common";

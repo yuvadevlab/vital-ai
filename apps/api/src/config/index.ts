@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/config/index.ts
  * @description Master barrel export for API configuration module.
- * @module @vitalai/api/config
+ * @module @vital-ai/api/config
  */
 
 export * from "./api-config.schema";

@@ -1,7 +1,7 @@
 /**
  * @file packages/ai-engine/src/llm/devlab-chat.model.ts
  * @description ChatModel adapter implementation backed by @yuva-devlab/ai-client.
- * @module @vitalai/ai-engine/llm
+ * @module @vital-ai/ai-engine/llm
  */
 
 import {

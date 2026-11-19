@@ -1,7 +1,7 @@
 /**
  * @file packages/constants/src/contraindications.ts
  * @description Clinical contraindication rules mapping medical conditions to blacklisted exercises and foods.
- * @module @vitalai/constants
+ * @module @vital-ai/constants
  */
 
 import {
@@ -10,7 +10,7 @@ import {
   ConditionSeverity,
   ExerciseId,
   FoodTag,
-} from "@vitalai/shared-types";
+} from "@vital-ai/shared-types";
 
 export interface ContraindicationMatrixEntry {
   readonly conditionId: ConditionId;

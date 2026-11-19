@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/user/resolvers/user.resolver.ts
  * @description GraphQL resolver exposing user profile queries and onboarding mutations.
- * @module @vitalai/api/user
+ * @module @vital-ai/api/user
  */
 
 import { UseGuards } from "@nestjs/common";

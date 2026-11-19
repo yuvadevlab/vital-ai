@@ -1,12 +1,12 @@
 /**
  * @file packages/ai-engine/src/advisor-engine.ts
  * @description Master cognitive AI advisory engine coordinating ReAct, multi-LLM models, and database-driven advisors.
- * @module @vitalai/ai-engine
+ * @module @vital-ai/ai-engine
  */
 
 import { Logger } from "@yuva-devlab/logger";
-import { AiReasoningTrace, TwoPhaseActionProposal } from "@vitalai/shared-types";
-import { PersonaContext } from "@vitalai/prompts";
+import { AiReasoningTrace, TwoPhaseActionProposal } from "@vital-ai/shared-types";
+import { PersonaContext } from "@vital-ai/prompts";
 import { ChatModel, VitalAiEngineConfig } from "./llm/llm.types";
 import { createChatModel } from "./llm/provider-factory";
 import { ReActAgent } from "./react/react-agent";

@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/nutrition/dto/log-water.input.ts
  * @description GraphQL InputType for incrementing daily hydration logging.
- * @module @vitalai/api/nutrition
+ * @module @vital-ai/api/nutrition
  */
 
 import { Field, Float, ID, InputType } from "@nestjs/graphql";

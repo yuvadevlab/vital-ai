@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/contracts/workout.contract.ts
  * @description Contracts for scientific hypertrophy, volume landmarks, exercises, and biomechanical swaps.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 import { MuscleGroup, MesocyclePhase, ExerciseCategory, SwapReason, ExerciseId } from "../enums";

@@ -1,8 +1,8 @@
 /**
  * @file packages/validation/src/index.ts
- * @description Master barrel export for the @vitalai/validation package.
+ * @description Master barrel export for the @vital-ai/validation package.
  * Single source of truth for all Zod input validation schemas and inferred types.
- * @module @vitalai/validation
+ * @module @vital-ai/validation
  */
 
 export * from "./profile.schema";

@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/user/user.module.ts
  * @description NestJS module configuring User domain layer: DTOs, repository, service, and resolver.
- * @module @vitalai/api/user
+ * @module @vital-ai/api/user
  */
 
 import { Module } from "@nestjs/common";

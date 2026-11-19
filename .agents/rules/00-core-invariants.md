@@ -34,11 +34,11 @@ vitalai/
 
 ### Strict Placement Rules
 
-- **Shared Constants & Types (`@vitalai/shared-types`)**: ANY constants, DTO shapes, Enums (`LifeStage`, `HealthCondition`, `NutritionalGoal`, `WorkoutSplit`), `QUERY_KEYS`, `API_ENDPOINTS`, `APP_ROUTES`, or TypeScript interfaces shared across apps or packages MUST reside in `@vitalai/shared-types`. **NEVER duplicate types or constants across apps or packages**.
-- **Science Math (`@vitalai/vital-engine`)**: ALL exercise physiology and clinical nutrition calculation logic (Volume Landmarks, TDEE, Mifflin-St Jeor, Glycemic Load, Purine Risk Score, Trimester Nutrient Adjustments) MUST reside in `@vitalai/vital-engine`. **MUST contain zero side-effects, zero I/O, zero database access, and zero HTTP calls**.
-- **AI Prompts & Guardrails (`@vitalai/ai-engine`)**: ALL system personas, prompt templates, prompt builder factory functions, follow-up parsers, and clinical contraindication rules MUST reside in `@vitalai/ai-engine`. API services must never define inline prompt strings.
-- **Validation Schemas (`@vitalai/validation`)**: ALL Zod schemas for forms and API validation MUST reside in `@vitalai/validation`. Never define inline Zod schemas in web components or backend route handlers.
-- **UI Design System (`@vitalai/ui`)**: Reusable presentation components, muscle heatmap, dialog primitives, gauges, and form fields MUST live in `@vitalai/ui`.
+- **Shared Constants & Types (`@vital-ai/shared-types`)**: ANY constants, DTO shapes, Enums (`LifeStage`, `HealthCondition`, `NutritionalGoal`, `WorkoutSplit`), `QUERY_KEYS`, `API_ENDPOINTS`, `APP_ROUTES`, or TypeScript interfaces shared across apps or packages MUST reside in `@vital-ai/shared-types`. **NEVER duplicate types or constants across apps or packages**.
+- **Science Math (`@vital-ai/vital-engine`)**: ALL exercise physiology and clinical nutrition calculation logic (Volume Landmarks, TDEE, Mifflin-St Jeor, Glycemic Load, Purine Risk Score, Trimester Nutrient Adjustments) MUST reside in `@vital-ai/vital-engine`. **MUST contain zero side-effects, zero I/O, zero database access, and zero HTTP calls**.
+- **AI Prompts & Guardrails (`@vital-ai/ai-engine`)**: ALL system personas, prompt templates, prompt builder factory functions, follow-up parsers, and clinical contraindication rules MUST reside in `@vital-ai/ai-engine`. API services must never define inline prompt strings.
+- **Validation Schemas (`@vital-ai/validation`)**: ALL Zod schemas for forms and API validation MUST reside in `@vital-ai/validation`. Never define inline Zod schemas in web components or backend route handlers.
+- **UI Design System (`@vital-ai/ui`)**: Reusable presentation components, muscle heatmap, dialog primitives, gauges, and form fields MUST live in `@vital-ai/ui`.
 
 ---
 
@@ -77,7 +77,7 @@ vitalai/
 
 1. If seed data is missing or stale, **inform the user** and ask before running:
    ```bash
-   pnpm --filter @vitalai/database db:seed
+   pnpm --filter @vital-ai/database db:seed
    ```
 2. Automatic or silent execution of seed scripts during initialization or test runs is strictly prohibited.
 
@@ -85,7 +85,7 @@ vitalai/
 
 ## 5. Zero-Hardcoding, Enums & Shared Types Invariants
 
-1. **Mandatory Canonical Enums from `@vitalai/shared-types`**:
+1. **Mandatory Canonical Enums from `@vital-ai/shared-types`**:
    - NEVER use bare string literals (e.g. `'T1'`, `'DIABETES'`, `'CHEST'`, `'active'`, `'pending'`).
    - ALWAYS import and use canonical TypeScript enums:
      - `LifeStage` (`LifeStage.PREGNANCY_T1`, `LifeStage.POSTPARTUM`)
@@ -93,10 +93,10 @@ vitalai/
      - `MuscleGroup` (`MuscleGroup.CHEST`, `MuscleGroup.LATS`)
      - `WorkoutSplit` (`WorkoutSplit.UPPER_LOWER`, `WorkoutSplit.PPL`)
 2. **Single Source of Truth for Types**:
-   - Never duplicate cross-package interfaces or contracts. All shared DTOs, query contracts, mutation inputs, and entity shapes MUST live in `@vitalai/shared-types`.
+   - Never duplicate cross-package interfaces or contracts. All shared DTOs, query contracts, mutation inputs, and entity shapes MUST live in `@vital-ai/shared-types`.
 3. **No Raw String Literals for Queries & Routes**:
-   - **React Query Keys**: Use `QUERY_KEYS` from `@vitalai/shared-types`. Always use `as const` tuples (`readonly (readonly unknown[])[]`). Never use raw string arrays like `["healthVault"]`.
-   - **API Endpoints**: Use `API_ENDPOINTS` from `@vitalai/shared-types`.
+   - **React Query Keys**: Use `QUERY_KEYS` from `@vital-ai/shared-types`. Always use `as const` tuples (`readonly (readonly unknown[])[]`). Never use raw string arrays like `["healthVault"]`.
+   - **API Endpoints**: Use `API_ENDPOINTS` from `@vital-ai/shared-types`.
    - **Route Paths**: Use `APP_ROUTES` and `API_ROUTES` from `@/lib/routes.ts`. Never hardcode raw URLs like `"/advisor"` or `"/advisor/${id}"`.
    - **URL Query Parameters**: Never hardcode raw query parameter strings or fragments like `"?redirect="` or `searchParams.get("token")`. Use centralized enums/constants and construct URLs via `URLSearchParams`.
    - **Enums Over Raw String Unions**: Avoid raw string union types. Use TypeScript `enum`s or `as const` key-value dictionaries so changing an underlying value only requires updating the definition.

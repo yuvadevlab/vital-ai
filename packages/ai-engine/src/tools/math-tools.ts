@@ -1,7 +1,7 @@
 /**
  * @file packages/ai-engine/src/tools/math-tools.ts
  * @description Master aggregator for deterministic calculation tools.
- * @module @vitalai/ai-engine/tools
+ * @module @vital-ai/ai-engine/tools
  */
 
 import { AiToolDefinition } from "./tool.types";

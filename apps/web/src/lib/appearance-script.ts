@@ -1,4 +1,4 @@
-import { VitalStorageKey } from "@vitalai/shared-types";
+import { VitalStorageKey } from "@vital-ai/shared-types";
 
 /**
  * appearanceScript

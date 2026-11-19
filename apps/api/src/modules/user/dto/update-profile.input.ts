@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/user/dto/update-profile.input.ts
  * @description GraphQL InputType for partial user profile modifications.
- * @module @vitalai/api/user
+ * @module @vital-ai/api/user
  */
 
 import { Field, Float, InputType, Int } from "@nestjs/graphql";
-import { ActivityLevel, CaloricGoal, LifeStage } from "@vitalai/shared-types";
+import { ActivityLevel, CaloricGoal, LifeStage } from "@vital-ai/shared-types";
 
 /**
  * Input payload for updating select fields on the user profile.

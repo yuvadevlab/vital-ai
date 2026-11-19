@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/health-condition/dto/health-condition.dto.ts
  * @description GraphQL ObjectType for medical conditions and clinical contraindication records.
- * @module @vitalai/api/health-condition
+ * @module @vital-ai/api/health-condition
  */
 
 import { Field, ID, ObjectType, registerEnumType } from "@nestjs/graphql";
-import { ConditionCategory, ConditionSeverity } from "@vitalai/shared-types";
+import { ConditionCategory, ConditionSeverity } from "@vital-ai/shared-types";
 
 // Register domain enums with GraphQL Code-First schema generator
 registerEnumType(ConditionCategory, {

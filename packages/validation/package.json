@@ -1,5 +1,5 @@
 {
-  "name": "@vitalai/validation",
+  "name": "@vital-ai/validation",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -25,7 +25,7 @@
     "test": "echo \"validation tests skipped\""
   },
   "dependencies": {
-    "@vitalai/shared-types": "workspace:*",
+    "@vital-ai/shared-types": "workspace:*",
     "zod": "^3.24.2"
   },
   "devDependencies": {

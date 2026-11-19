@@ -1,11 +1,11 @@
 /**
  * @file packages/ai-engine/src/react/react-agent.ts
  * @description Cognitive ReAct reasoning loop coordinator utilizing database-driven advisor instructions.
- * @module @vitalai/ai-engine/react
+ * @module @vital-ai/ai-engine/react
  */
 
 import { Logger } from "@yuva-devlab/logger";
-import { buildAdvisorSystemPrompt, buildFullReActPrompt } from "@vitalai/prompts";
+import { buildAdvisorSystemPrompt, buildFullReActPrompt } from "@vital-ai/prompts";
 import { ChatModel } from "../llm/llm.types";
 import { globalSafetyFilter } from "../guardrails/tier1-safety-filter";
 import { globalToolRegistry } from "../tools/tool-registry";

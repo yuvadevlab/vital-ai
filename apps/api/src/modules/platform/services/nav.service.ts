@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/platform/services/nav.service.ts
  * @description Domain service for managing application menu and navigation items from PostgreSQL.
- * @module @vitalai/api/platform
+ * @module @vital-ai/api/platform
  */
 
 import { Injectable } from "@nestjs/common";

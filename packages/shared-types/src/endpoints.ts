@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/endpoints.ts
  * @description Single source of truth for GraphQL gateway and SSE streaming endpoints across VitalAI.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 export const API_ENDPOINTS = {

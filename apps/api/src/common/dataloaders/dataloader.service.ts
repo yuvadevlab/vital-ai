@@ -1,12 +1,12 @@
 /**
  * @file apps/api/src/common/dataloaders/dataloader.service.ts
  * @description Factory service generating per-request batch DataLoaders for PostgreSQL relations.
- * @module @vitalai/api/common
+ * @module @vital-ai/api/common
  */
 
 import { Injectable } from "@nestjs/common";
 import DataLoader from "dataloader";
-import { type SetLog, type PrescribedExercise, type ExerciseSwap } from "@vitalai/database";
+import { type SetLog, type PrescribedExercise, type ExerciseSwap } from "@vital-ai/database";
 import { PrismaService } from "../../modules/prisma/prisma.service";
 import { VitalDataLoaders } from "./dataloader.types";
 

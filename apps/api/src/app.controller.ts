@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/app.controller.ts
  * @description Root REST controller serving system health checks and database connectivity probes.
- * @module @vitalai/api
+ * @module @vital-ai/api
  */
 
 import { Controller, Get } from "@nestjs/common";

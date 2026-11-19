@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/nutrition/resolvers/nutrition.resolver.ts
  * @description GraphQL resolver for meal planning, meal items, hydration, and metabolic summaries.
- * @module @vitalai/api/nutrition
+ * @module @vital-ai/api/nutrition
  */
 
 import { UseGuards } from "@nestjs/common";

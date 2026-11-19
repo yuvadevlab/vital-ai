@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/platform/services/llm-catalog.service.ts
  * @description Domain service for managing the dynamic database-backed LLM provider and model catalog.
- * @module @vitalai/api/platform
+ * @module @vital-ai/api/platform
  */
 
 import { Injectable } from "@nestjs/common";

@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/common/errors/error-codes.enum.ts
  * @description Standardized DevLab platform error codes for GraphQL error extensions.
- * @module @vitalai/api/common
+ * @module @vital-ai/api/common
  */
 
 export enum DevLabErrorCode {

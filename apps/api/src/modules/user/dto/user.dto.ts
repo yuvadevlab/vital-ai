@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/user/dto/user.dto.ts
  * @description GraphQL ObjectTypes representing user profile entities and computed metabolic targets.
- * @module @vitalai/api/user
+ * @module @vital-ai/api/user
  */
 
 import { Field, Float, ID, Int, ObjectType, registerEnumType } from "@nestjs/graphql";
-import { BiologicalSex, ActivityLevel, CaloricGoal, LifeStage } from "@vitalai/shared-types";
+import { BiologicalSex, ActivityLevel, CaloricGoal, LifeStage } from "@vital-ai/shared-types";
 
 // Register domain enums with GraphQL Code-First schema generator
 registerEnumType(BiologicalSex, {

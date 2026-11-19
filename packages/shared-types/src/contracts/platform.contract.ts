@@ -1,7 +1,7 @@
 /**
  * @file packages/shared-types/src/contracts/platform.contract.ts
  * @description Contracts for dynamic platform providers, models, navigation items, and configurations.
- * @module @vitalai/shared-types
+ * @module @vital-ai/shared-types
  */
 
 import { ConfigNamespace, SystemPromptSlug } from "../enums";

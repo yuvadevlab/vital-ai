@@ -2,12 +2,12 @@
  * @file apps/api/src/modules/health-condition/repositories/health-condition.repository.ts
  * @description Data access repository isolating HealthCondition database operations.
  * Enforces mandatory user tenant scoping across all queries and mutations.
- * @module @vitalai/api/health-condition
+ * @module @vital-ai/api/health-condition
  */
 
 import { Injectable } from "@nestjs/common";
 import { Logger } from "@yuva-devlab/logger";
-import { type HealthCondition } from "@vitalai/database";
+import { type HealthCondition } from "@vital-ai/database";
 import { PrismaService } from "../../prisma/prisma.service";
 import { CreateHealthConditionInput } from "../dto/create-health-condition.input";
 import { UpdateHealthConditionInput } from "../dto/update-health-condition.input";

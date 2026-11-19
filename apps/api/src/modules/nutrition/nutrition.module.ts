@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/nutrition/nutrition.module.ts
  * @description NestJS module configuring clinical nutrition, meal planning, purine index, and hydration tracking.
- * @module @vitalai/api/nutrition
+ * @module @vital-ai/api/nutrition
  */
 
 import { Module } from "@nestjs/common";

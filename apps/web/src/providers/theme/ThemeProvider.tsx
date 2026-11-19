@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useCallback, useEffect, useMemo, useSyncExternalStore } from "react";
-import { VitalStorageKey } from "@vitalai/shared-types";
+import { VitalStorageKey } from "@vital-ai/shared-types";
 import { ThemeContext, type Theme, type ResolvedTheme } from "./theme-context";
 
 const STORAGE_KEY = VitalStorageKey.THEME;

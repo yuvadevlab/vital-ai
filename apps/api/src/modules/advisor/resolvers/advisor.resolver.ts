@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/advisor/resolvers/advisor.resolver.ts
  * @description GraphQL resolver for querying personas, chat history, and sending consultation messages.
- * @module @vitalai/api/advisor
+ * @module @vital-ai/api/advisor
  */
 
 import { UseGuards } from "@nestjs/common";

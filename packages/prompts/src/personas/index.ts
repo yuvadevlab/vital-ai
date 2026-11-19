@@ -1,7 +1,7 @@
 /**
  * @file packages/prompts/src/personas/index.ts
  * @description Master barrel export for persona prompts.
- * @module @vitalai/prompts/personas
+ * @module @vital-ai/prompts/personas
  */
 
 export * from "./persona.types";

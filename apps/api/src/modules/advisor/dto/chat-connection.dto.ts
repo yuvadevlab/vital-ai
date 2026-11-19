@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/advisor/dto/chat-connection.dto.ts
  * @description Relay-compliant ChatMessageConnection for cursor-based chat history pagination.
- * @module @vitalai/api/advisor
+ * @module @vital-ai/api/advisor
  */
 
 import { ObjectType } from "@nestjs/graphql";

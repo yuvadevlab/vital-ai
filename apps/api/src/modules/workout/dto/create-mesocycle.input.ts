@@ -1,7 +1,7 @@
 /**
  * @file apps/api/src/modules/workout/dto/create-mesocycle.input.ts
  * @description GraphQL InputType for generating a new 6-week periodized mesocycle.
- * @module @vitalai/api/workout
+ * @module @vital-ai/api/workout
  */
 
 import { Field, InputType, Int } from "@nestjs/graphql";

@@ -1,11 +1,11 @@
 /**
  * @file packages/prompts/src/personas/elena-nutrition.prompt.ts
  * @description Persona prompt definition for Dr. Elena Rostova (Clinical Nutrition).
- * @module @vitalai/prompts/personas
+ * @module @vital-ai/prompts/personas
  */
 
-import { AdvisorSpecialty, AdvisorTone } from "@vitalai/shared-types";
-import { CONTRAINDICATION_MATRIX } from "@vitalai/constants";
+import { AdvisorSpecialty, AdvisorTone } from "@vital-ai/shared-types";
+import { CONTRAINDICATION_MATRIX } from "@vital-ai/constants";
 import { PersonaDefinition, PersonaContext, AdvisorPersonaId } from "./persona.types";
 
 export const elenaNutritionPersona: PersonaDefinition = {

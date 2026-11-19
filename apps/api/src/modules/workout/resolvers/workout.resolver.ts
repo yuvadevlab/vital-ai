@@ -1,13 +1,13 @@
 /**
  * @file apps/api/src/modules/workout/resolvers/workout.resolver.ts
  * @description GraphQL resolver for periodized workout sessions, mesocycles, set logging, and swaps.
- * @module @vitalai/api/workout
+ * @module @vital-ai/api/workout
  */
 
 import { UseGuards } from "@nestjs/common";
 import { Args, ID, Mutation, Query, Resolver } from "@nestjs/graphql";
 import { Logger } from "@yuva-devlab/logger";
-import { MuscleGroup } from "@vitalai/shared-types";
+import { MuscleGroup } from "@vital-ai/shared-types";
 import { JwtAuthGuard } from "../../../common/guards/jwt-auth.guard";
 import { CurrentUser, type RequestUser } from "../../../common/decorators/current-user.decorator";
 import { WorkoutService } from "../services/workout.service";

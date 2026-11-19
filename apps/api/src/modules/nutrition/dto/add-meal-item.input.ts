@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/nutrition/dto/add-meal-item.input.ts
  * @description GraphQL InputType for recording a food item in a daily meal plan.
- * @module @vitalai/api/nutrition
+ * @module @vital-ai/api/nutrition
  */
 
 import { Field, Float, ID, InputType } from "@nestjs/graphql";
-import { MealType } from "@vitalai/shared-types";
+import { MealType } from "@vital-ai/shared-types";
 
 @InputType({ description: "Food item submission payload" })
 export class AddMealItemInput {

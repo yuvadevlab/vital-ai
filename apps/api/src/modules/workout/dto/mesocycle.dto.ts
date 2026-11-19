@@ -1,11 +1,11 @@
 /**
  * @file apps/api/src/modules/workout/dto/mesocycle.dto.ts
  * @description GraphQL ObjectTypes for 6-week mesocycles and workout session days.
- * @module @vitalai/api/workout
+ * @module @vital-ai/api/workout
  */
 
 import { Field, ID, Int, ObjectType, registerEnumType } from "@nestjs/graphql";
-import { MesocyclePhase } from "@vitalai/shared-types";
+import { MesocyclePhase } from "@vital-ai/shared-types";
 import { PrescribedExerciseResponse } from "./exercise.dto";
 
 registerEnumType(MesocyclePhase, {

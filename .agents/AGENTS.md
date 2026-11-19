@@ -22,8 +22,8 @@ All AI agents must inspect and adhere to the relevant topic rulebooks:
 ## 2. Universal Monorepo Invariants (Zero Exceptions)
 
 1. **Strict Polyglot Package Boundaries & Single Source of Truth**:
-   - Shared types, constants, enums, and schemas MUST live in `@vitalai/shared-types` (TypeScript) and mirror backend Pydantic v2 schemas.
-   - Frontend styling and design system tokens MUST live in `@vitalai/ui` using the Muscle Monster OKLCH palette.
+   - Shared types, constants, enums, and schemas MUST live in `@vital-ai/shared-types` (TypeScript) and mirror backend Pydantic v2 schemas.
+   - Frontend styling and design system tokens MUST live in `@vital-ai/ui` using the Muscle Monster OKLCH palette.
    - Backend logic MUST live in `apps/api` (Python FastAPI).
 2. **Standardized Logging (`.info`, `.warn`, `.error` ONLY)**:
    - Use ONLY `.info`, `.warn`, and `.error` log levels across backend and frontend.

@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import { Bot, CalendarDays, LayoutDashboard, LineChart, User, Zap } from "lucide-react";
 import type { ReactNode } from "react";
-import { AppRoutePath } from "@vitalai/shared-types";
+import { AppRoutePath } from "@vital-ai/shared-types";
 import { InsightWidget } from "./InsightWidget";
 import { ThemeSwitch } from "./ThemeSwitch";
 

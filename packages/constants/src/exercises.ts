@@ -1,7 +1,7 @@
 /**
  * @file packages/constants/src/exercises.ts
  * @description Curated clinical exercise taxonomy with required equipment tags for Muscle Monster filtering.
- * @module @vitalai/constants
+ * @module @vital-ai/constants
  */
 
 import {
@@ -13,7 +13,7 @@ import {
   AxialLoadingLevel,
   ContraindicationTag,
   type MovementTempo,
-} from "@vitalai/shared-types";
+} from "@vital-ai/shared-types";
 
 export interface ExerciseTaxonomyEntry {
   readonly id: ExerciseId;
