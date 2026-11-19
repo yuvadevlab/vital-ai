@@ -1,6 +1,10 @@
 {
-  "name": "vitalai",
+  "name": "vital-ai",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuvadevlab/vital-ai.git"
+  },
   "type": "module",
   "packageManager": "pnpm@12.5.1",
   "engines": {
